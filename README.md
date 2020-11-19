@@ -1,8 +1,14 @@
 # hackaton
 
-Flutter app developed as part of Quickbase hackaton November 2020.
+Flutter app developed as part of Wavy Work project during Quickbase hackaton November 2020.
 To use the app, download the project and run the code in Android Studio or other IDE. 
 Alternatively, you can install the apk file from the root directory of this repo on your smartphone.
+
+# Usage instructions
+
+1. Install app via apk/Android Studio
+2. Sign in using google credentials
+3. Access dashboard
 
 ## Getting Started
 
