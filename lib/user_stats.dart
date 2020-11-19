@@ -32,15 +32,6 @@ class _UserStatsState extends State<UserStats>{
     "QUICKBASE-ACTION": "API_AddField"
   };
 
-  //mongodb connection
-  Db db = new Db.pool([
-    'mongodb://admin:0KTtW71vyL9LQIyU@cluster1-shard-00-00.9gvtr.mongodb.net:27017/jira?ssl=true&replicaSet=atlas-zdopln-shard-00&authSource=admin&retryWrites=true&w=majority',
-    'mongodb://admin:0KTtW71vyL9LQIyU@cluster1-shard-00-01.9gvtr.mongodb.net:27017/jira?ssl=true&replicaSet=atlas-zdopln-shard-00&authSource=admin&retryWrites=true&w=majority',
-    'mongodb://admin:0KTtW71vyL9LQIyU@cluster1-shard-00-02.9gvtr.mongodb.net:27017/jira?ssl=true&replicaSet=atlas-zdopln-shard-00&authSource=admin&retryWrites=true&w=majority'
-  ]);
-
-
-
   makeQuickBaseConnection() async{
     String url = "https://hackathon20-mdobre.quickbase.com/db/bqzdtnnev";
     String json = '{"title": "Hello"}';
