@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:http/http.dart';
 import 'dart:io';
+import 'dart:async';
+import 'dart:convert';
 
 import 'package:hackaton/widgets/rounded_button.dart';
 import 'package:hackaton/constants.dart';
@@ -32,13 +34,12 @@ class _UserStatsState extends State<UserStats>{
     "QUICKBASE-ACTION": "API_AddField"
   };
 
-  makeQuickBaseConnection() async{
-    String url = "https://hackathon20-mdobre.quickbase.com/db/bqzdtnnev";
-    String json = '{"title": "Hello"}';
-    String endpoint = "https://www.pipelines.quickbase.com/hooks/json-handler/~1s39gio775s";
+  //text input controllers
+  TextEditingController nameController = new TextEditingController();
+  TextEditingController moodController = new TextEditingController();
+  TextEditingController descriptionController = new TextEditingController();
+  TextEditingController gradeController = new TextEditingController();
 
-    Response response =  await post(endpoint, headers: headers, body: json);
-  }
 
   Material MyItems(IconData icon, String heading, int color) {
     return Material(
@@ -112,8 +113,7 @@ class _UserStatsState extends State<UserStats>{
                   children: [
                     Align(
                       child: RoundedButton(
-                          press:() { FutureBuilder(
-                              future: showPopup(context, _popupBody(), 'Add a mood'));},
+                          press:() { showPopup(context, _popupBody(), 'Add a mood');},
                           text: 'Add mood'),
                     ),
                     Align(
@@ -264,6 +264,7 @@ class _UserStatsState extends State<UserStats>{
         new ListTile(
           leading: const Icon(Icons.person),
           title: new TextField(
+            controller: nameController,
             decoration: new InputDecoration(
               hintText: "Name",
             ),
@@ -272,6 +273,7 @@ class _UserStatsState extends State<UserStats>{
         new ListTile(
           leading: const Icon(Icons.mood),
           title: new TextField(
+            controller: moodController,
             decoration: new InputDecoration(
               hintText: "Mood",
             ),
@@ -280,6 +282,7 @@ class _UserStatsState extends State<UserStats>{
         new ListTile(
           leading: const Icon(Icons.description),
           title: new TextField(
+            controller: descriptionController,
             decoration: new InputDecoration(
               hintText: "Description",
             ),
@@ -291,16 +294,21 @@ class _UserStatsState extends State<UserStats>{
         new ListTile(
           leading: const Icon(Icons.grade),
           title: new TextField(
+            controller: gradeController,
             decoration: new InputDecoration(
               hintText: "Grade",
             ),
           ),
         ),
+        const Divider(
+          height: 60.0,
+        ),
         new Align(
-          alignment: Alignment.bottomLeft,
+          alignment: Alignment.bottomCenter,
           child:
-            new FlatButton(
+            new RaisedButton(
               child: Text("Add"),
+              shape: new RoundedRectangleBorder(borderRadius: new BorderRadius.circular(30.0)),
               onPressed: () {
                 _handleAddMoodPress();
                 Navigator.of(context).pop();
@@ -314,10 +322,23 @@ class _UserStatsState extends State<UserStats>{
   }
 
   _handleAddMoodPress()async{
-    String url = "https://hackathon20-mdobre.quickbase.com/db/bqzdtnnev";
-    String json = '{"title": "Hello"}';
-    String endpoint = "https://www.pipelines.quickbase.com/hooks/json-handler/~1s39gio775s";
-
-    Response response =  await post(endpoint, headers: headers, body: json);
+    String endpoint = "https://www.pipelines.quickbase.com/hooks/webhooks/1bud9mmwo3k";
+    Map data = {
+    "_id": {
+    "oid": "5f0c6680ccf48d001e8f803a"
+    },
+    "grade": gradeController.text,
+    "smiley": moodController.text,
+    "description": descriptionController.text,
+    "team": "something.atlassian.net",
+    "memberID": "5f003de80e8e590bafe98521",
+    "createdAt": {
+    "date": "2020-011-19T13:49:52.598Z"
+    },
+    "__v": 0
+  };
+    String url2 = "https://jsonplaceholder.typicode.com/posts";
+    var body = jsonEncode(data);
+    Response response =  await post(endpoint, body: body);
   }
 }
