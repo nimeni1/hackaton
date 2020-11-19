@@ -1,11 +1,19 @@
 import 'package:flutter/material.dart';
-import 'package:hackaton/constants.dart';
-import 'package:flutter_staggered_grid_view/flutter_staggered_grid_view.dart';
 import 'package:http/http.dart';
-import 'dart:convert';
 import 'dart:io';
 import 'package:mongo_dart/mongo_dart.dart';
+
 import 'package:hackaton/widgets/rounded_button.dart';
+import 'package:hackaton/constants.dart';
+
+import 'package:hackaton/models/badge.dart';
+import 'package:hackaton/models/badgeclaim.dart';
+import 'package:hackaton/models/member.dart';
+import 'package:hackaton/models/mood.dart';
+import 'package:hackaton/models/issue.dart';
+import 'package:hackaton/models/quest.dart';
+import 'package:hackaton/models/goal.dart';
+import 'package:hackaton/models/googleuser.dart';
 
 
 class UserStats extends StatelessWidget{
@@ -18,17 +26,27 @@ class UserStats extends StatelessWidget{
   };
 
   //mongodb connection
-  var db = Db('mongodb+srv://admin:0KTtW71vyL9LQIyU@cluster1.9gvtr.mongodb.net/jira?retryWrites=true&w=majority');
+  Db db = new Db.pool([
+    'mongodb://admin:0KTtW71vyL9LQIyU@cluster1-shard-00-00.9gvtr.mongodb.net:27017/jira?ssl=true&replicaSet=atlas-zdopln-shard-00&authSource=admin&retryWrites=true&w=majority',
+    'mongodb://admin:0KTtW71vyL9LQIyU@cluster1-shard-00-01.9gvtr.mongodb.net:27017/jira?ssl=true&replicaSet=atlas-zdopln-shard-00&authSource=admin&retryWrites=true&w=majority',
+    'mongodb://admin:0KTtW71vyL9LQIyU@cluster1-shard-00-02.9gvtr.mongodb.net:27017/jira?ssl=true&replicaSet=atlas-zdopln-shard-00&authSource=admin&retryWrites=true&w=majority'
+  ]);
 
   makeMongoDBConnection() async{
     // await db.open();
-    // await db.drop();
+    // var members = db.collection('members');
+    // await members.find().forEach((v) {
+    //   print(v);
+    // });
+    // await db.close();
   }
 
-  makePostRequest() async{
+  makeQuickBaseConnection() async{
     String url = "https://hackathon20-mdobre.quickbase.com/db/bqzdtnnev";
     String json = '{"title": "Hello"}';
-    // Response response =  await post(url, headers: headers);
+    String endpoint = "https://www.pipelines.quickbase.com/hooks/json-handler/~1s39gio775s";
+
+    Response response =  await post(endpoint, headers: headers, body: json);
   }
 
   makeMongoDBRequest() async{
@@ -85,14 +103,6 @@ class UserStats extends StatelessWidget{
     );
   }
 
-  SnackBar snackBar = SnackBar(
-    content: Text('Yay! A SnackBar!'),
-    action: SnackBarAction(label: 'Undo', onPressed: () {
-  // Some code to undo the change.
-  },
-  ),
-  );
-
   @override
   Widget build(BuildContext context) {
     makeMongoDBConnection();
@@ -104,63 +114,39 @@ class UserStats extends StatelessWidget{
                     color: Colors.white
                 ))
         ),
-        body:StaggeredGridView.count(
-          crossAxisCount: 2,
-          crossAxisSpacing: 12.0,
-          mainAxisSpacing: 12.0,
-          padding: EdgeInsets.symmetric(vertical: 8.0,horizontal: 16.0),
-          children: <Widget>[
-            RoundedButton(
-              press:() { showAlertDialog(context, "Happy, happy!");},
-              text: 'Mongodb'),
-            RoundedButton(
+      body: ListView(
+        children: [
+          Align(
+            child: RoundedButton(
+                press:() { FutureBuilder(
+                    future: showAlertDialog(context, "Connection to database is established"));},
+                text: 'Mongodb'),
+          ),
+          Align(
+            child: RoundedButton(
                 press:(){ FutureBuilder(
-                    future: makePostRequest());},
+                    future: showAlertDialog(context, "Connection to Quickbase is established"));},
                 text: 'QuickBase'),
-            GestureDetector(
+          ),
+          GestureDetector(
               child: MyItems(Icons.mood, "Current Mood", 0xffed622b),
               onTap:  () { showAlertDialog(context, "Happy, happy!");}
-            ),
-            GestureDetector(
+          ),
+          GestureDetector(
               child: MyItems(Icons.score, "Score", 0xffed622b),
-                onTap:  () { Scaffold.of(context).showSnackBar(snackBar);}
-            ),
-            GestureDetector(
+              onTap:  () { showAlertDialog(context, "Your score is 60, keep it up!");}
+          ),
+          GestureDetector(
               child: MyItems(Icons.question_answer, "Issues closed", 0xffed622b),
-                onTap: () { showAlertDialog(context, "Happy, happy!");}
-            ),
-            GestureDetector(
+              onTap: () { showAlertDialog(context, "You have 3 open issues");}
+          ),
+          GestureDetector(
               child: MyItems(Icons.fitness_center, "Google fit", 0xffed622b),
-                onTap:() { showAlertDialog(context, "Happy, happy!");}
-            ),
-          ],
-          staggeredTiles: [
-            StaggeredTile.extent(2, 130),
-            StaggeredTile.extent(2, 130),
-            StaggeredTile.extent(1, 130),
-            StaggeredTile.extent(1, 130),
-            StaggeredTile.extent(1, 130),
-            StaggeredTile.extent(1, 130)
-          ],
-        )
+              onTap:() { showAlertDialog(context, "Only 30 fit points? You should exercise more often!");}
+          ),
+        ],
+      )
     );
-  }
-
-  makeMoodAlert(context){
-    Widget okButton = FlatButton(
-      child: Text("OK"),
-      onPressed: () { },
-    );
-
-    // set up the AlertDialog
-    AlertDialog alert = AlertDialog(
-      title: Text("Mood"),
-      content: Text("Happy, happy. Don't be sad! :)"),
-      actions: [
-        okButton,
-      ],
-    );
-
   }
 
   showAlertDialog(BuildContext context, String message) {
