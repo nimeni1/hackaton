@@ -100,31 +100,100 @@ class _UserStatsState extends State<UserStats>{
                     color: Colors.white
                 ))
         ),
-      body: ListView(
-        children: [
-          Align(
-            child: RoundedButton(
-                press:() { FutureBuilder(
-                    future: showPopup(context, _popupBody(), 'Add a mood'));},
-                text: 'Add mood'),
-          ),
-          GestureDetector(
-              child: MyItems(Icons.mood, "Current Mood", 0xffed622b),
-              onTap:  () { showAlertDialog(context, "Happy, happy!");}
-          ),
-          GestureDetector(
-              child: MyItems(Icons.score, "Score", 0xffed622b),
-              onTap:  () { showAlertDialog(context, "Your score is 60, keep it up!");}
-          ),
-          GestureDetector(
-              child: MyItems(Icons.question_answer, "Issues closed", 0xffed622b),
-              onTap: () { showAlertDialog(context, "You have 3 open issues");}
-          ),
-          GestureDetector(
-              child: MyItems(Icons.fitness_center, "Google fit", 0xffed622b),
-              onTap:() { showAlertDialog(context, "Only 30 fit points? You should exercise more often!");}
-          ),
-        ],
+      body: Padding(
+        padding: EdgeInsets.all(30),
+        child: ListView.separated(
+          itemCount: 1,
+          itemBuilder: (BuildContext context, int index){
+            return Container(
+              child: ListView(
+                  shrinkWrap: true,
+                  scrollDirection: Axis.vertical,
+                  children: [
+                    Align(
+                      child: RoundedButton(
+                          press:() { FutureBuilder(
+                              future: showPopup(context, _popupBody(), 'Add a mood'));},
+                          text: 'Add mood'),
+                    ),
+                    Align(
+                      child: Container(
+                        width: 200,
+                        child: Card(
+                          margin: EdgeInsets.symmetric(vertical: 10),
+                          child: Align(
+                            child: Container(
+                              width: 200,
+                              child: GestureDetector(
+                                  child: MyItems(Icons.mood, "Current Mood", 0xffed622b),
+                                  onTap:  () { showAlertDialog(context, "Happy, happy!");}
+                              ),
+                            ),
+                          ),
+                        ),
+                      ),
+                    ),
+                    Align(
+                      child: Container(
+                        width: 200,
+                        child: Card(
+                          margin: EdgeInsets.symmetric(vertical: 10),
+                          child: Align(
+                            child: Container(
+                              width: 200,
+                              child: GestureDetector(
+                                  child: MyItems(Icons.score, "Score", 0xffed622b),
+                                  onTap:  () { showAlertDialog(context, "Your score is 60, keep it up!");}
+                              ),
+                            ),
+                          ),
+                        ),
+                      ),
+                    ),
+                    Align(
+                      child: Container(
+                        width: 200,
+                        child: Card(
+                          margin: EdgeInsets.symmetric(vertical: 10),
+                          child: Align(
+                            child: Container(
+                              width: 200,
+                              child: GestureDetector(
+                                  child: MyItems(Icons.question_answer, "Issues closed", 0xffed622b),
+                                  onTap: () { showAlertDialog(context, "You have 3 open issues");}
+                              ),
+                            ),
+                          ),
+                        ),
+                      ),
+                    ),
+                    Align(
+                      child: Container(
+                        width: 200,
+                        child: Card(
+                          margin: EdgeInsets.symmetric(vertical: 10),
+                          child: Align(
+                            child: Container(
+                              width: 200,
+                              child: GestureDetector(
+                                  child: MyItems(Icons.fitness_center, "Google fit", 0xffed622b),
+                                  onTap:() { showAlertDialog(context, "Only 30 fit points? You should exercise more often!");}
+                              ),
+                            ),
+                          ),
+                        ),
+                      ),
+                    ),
+                  ]
+              )
+            );
+          },
+          separatorBuilder: (BuildContext context, int index) {
+            return SizedBox(
+            height: 10,
+            );
+      },
+        )
       )
     );
   }
@@ -190,10 +259,65 @@ class _UserStatsState extends State<UserStats>{
   }
 
   Widget _popupBody() {
-    return Container(
-      child: Text('This is a popup window'),
+    return Column(
+      children: <Widget>[
+        new ListTile(
+          leading: const Icon(Icons.person),
+          title: new TextField(
+            decoration: new InputDecoration(
+              hintText: "Name",
+            ),
+          ),
+        ),
+        new ListTile(
+          leading: const Icon(Icons.mood),
+          title: new TextField(
+            decoration: new InputDecoration(
+              hintText: "Mood",
+            ),
+          ),
+        ),
+        new ListTile(
+          leading: const Icon(Icons.description),
+          title: new TextField(
+            decoration: new InputDecoration(
+              hintText: "Description",
+            ),
+          ),
+        ),
+        const Divider(
+          height: 1.0,
+        ),
+        new ListTile(
+          leading: const Icon(Icons.grade),
+          title: new TextField(
+            decoration: new InputDecoration(
+              hintText: "Grade",
+            ),
+          ),
+        ),
+        new Align(
+          alignment: Alignment.bottomLeft,
+          child:
+            new FlatButton(
+              child: Text("Add"),
+              onPressed: () {
+                _handleAddMoodPress();
+                Navigator.of(context).pop();
+                final snackBar = SnackBar(content: Text('Mood added!'));
+                Scaffold.of(context).showSnackBar(snackBar);
+              },
+            )
+        )
+      ],
     );
   }
 
+  _handleAddMoodPress()async{
+    String url = "https://hackathon20-mdobre.quickbase.com/db/bqzdtnnev";
+    String json = '{"title": "Hello"}';
+    String endpoint = "https://www.pipelines.quickbase.com/hooks/json-handler/~1s39gio775s";
 
+    Response response =  await post(endpoint, headers: headers, body: json);
+  }
 }
