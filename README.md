@@ -1,6 +1,8 @@
 # hackaton
 
-A new Flutter application.
+Flutter app developed as part of Quickbase hackaton November 2020.
+To use the app, download the project and run the code in Android Studio or other IDE. 
+Alternatively, you can install the apk file from the root directory of this repo on your smartphone.
 
 ## Getting Started
 
