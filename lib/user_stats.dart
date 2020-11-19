@@ -16,8 +16,8 @@ import 'package:hackaton/models/member.dart';
 import 'package:hackaton/models/mood.dart';
 import 'package:hackaton/models/issue.dart';
 import 'package:hackaton/models/quest.dart';
-import 'package:hackaton/models/goal.dart';
 import 'package:hackaton/models/googleuser.dart';
+import 'package:hackaton/models/goal.dart';
 
 
 class UserStats extends StatefulWidget{
@@ -337,7 +337,6 @@ class _UserStatsState extends State<UserStats>{
     },
     "__v": 0
   };
-    String url2 = "https://jsonplaceholder.typicode.com/posts";
     var body = jsonEncode(data);
     Response response =  await post(endpoint, body: body);
   }
