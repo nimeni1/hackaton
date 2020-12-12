@@ -1,0 +1,45 @@
+[{
+  "_id": {
+    "$oid": "5f0b32041733da001e62e5df"
+  },
+  "minValues": [
+    2,
+    5,
+    10,
+    15,
+    25
+  ],
+  "iconUrl": "https://cdn.discordapp.com/attachments/276105630996234240/732232716267028510/QuestGiver2.png",
+  "name": "Quest giver",
+  "description": "Quest created in one day",
+  "type": 3,
+  "maxLevel": 5,
+  "valueType": 3,
+  "activePeriodInDays": 1,
+  "createdAt": {
+    "$date": "2020-07-12T15:53:40.165Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f0b328f1733da001e62e5e0"
+  },
+  "minValues": [
+    2,
+    5,
+    10,
+    15,
+    25
+  ],
+  "iconUrl": "https://cdn.discordapp.com/attachments/276105630996234240/732232713188147260/OnFire25.png",
+  "name": "On Fire",
+  "description": "Issues resolved in one day",
+  "type": 0,
+  "maxLevel": 5,
+  "valueType": 1,
+  "activePeriodInDays": 1,
+  "createdAt": {
+    "$date": "2020-07-12T15:55:59.072Z"
+  },
+  "__v": 0
+}]

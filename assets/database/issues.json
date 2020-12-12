@@ -1,0 +1,2003 @@
+[{
+  "_id": {
+    "$oid": "5f0b565c149e23001e2e87b8"
+  },
+  "memberID": "557058:656d8057-aef5-4b0e-940e-b6b793a04505",
+  "projectID": "10003",
+  "teamID": "grendelgames.atlassian.net",
+  "issueID": "10149",
+  "points": 1,
+  "status": 3,
+  "createdAt": {
+    "$date": "2020-07-12T18:28:44.161Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f0b565c149e23001e2e87ba"
+  },
+  "memberID": "557058:656d8057-aef5-4b0e-940e-b6b793a04505",
+  "projectID": "10003",
+  "teamID": "grendelgames.atlassian.net",
+  "issueID": "10149",
+  "points": 1,
+  "status": 3,
+  "createdAt": {
+    "$date": "2020-07-12T18:28:44.329Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f0b565c149e23001e2e87bc"
+  },
+  "memberID": "5a8e7ba0169207417fa5d35a",
+  "projectID": "10003",
+  "teamID": "grendelgames.atlassian.net",
+  "issueID": "10150",
+  "points": 20,
+  "status": 3,
+  "createdAt": {
+    "$date": "2020-07-12T18:28:44.377Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f0b565d149e23001e2e87be"
+  },
+  "memberID": "5df2125c7dc0360ecd0253f8",
+  "projectID": "10003",
+  "teamID": "grendelgames.atlassian.net",
+  "issueID": "10154",
+  "points": 1,
+  "status": 4,
+  "createdAt": {
+    "$date": "2020-07-12T18:28:45.508Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f0b5667149e23001e2e87c0"
+  },
+  "memberID": "557058:656d8057-aef5-4b0e-940e-b6b793a04505",
+  "projectID": "10003",
+  "teamID": "grendelgames.atlassian.net",
+  "issueID": "10155",
+  "points": 20,
+  "status": 3,
+  "createdAt": {
+    "$date": "2020-07-12T18:28:55.803Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f0b566a149e23001e2e87c2"
+  },
+  "memberID": "5a8e7ba0169207417fa5d35a",
+  "projectID": "10003",
+  "teamID": "grendelgames.atlassian.net",
+  "issueID": "10156",
+  "points": 1,
+  "status": 3,
+  "createdAt": {
+    "$date": "2020-07-12T18:28:58.657Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f0b59b2149e23001e2e87c5"
+  },
+  "memberID": "5a8e7ba0169207417fa5d35a",
+  "projectID": "10003",
+  "teamID": "grendelgames.atlassian.net",
+  "issueID": "10151",
+  "points": 1,
+  "status": 3,
+  "createdAt": {
+    "$date": "2020-07-12T18:42:58.858Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f0b8339a4e0b7001e447f99"
+  },
+  "memberID": "5df2125c7dc0360ecd0253f8",
+  "projectID": "10000",
+  "teamID": "grendelgames.atlassian.net",
+  "issueID": "10161",
+  "points": 5,
+  "status": 3,
+  "createdAt": {
+    "$date": "2020-07-12T21:40:09.273Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f0c65f7ccf48d001e8f8034"
+  },
+  "memberID": "5f003de80e8e590bafe98521",
+  "projectID": "10000",
+  "teamID": "grendelgames.atlassian.net",
+  "issueID": "10162",
+  "points": 1000,
+  "status": 4,
+  "createdAt": {
+    "$date": "2020-07-13T13:47:35.856Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f0c65f7ccf48d001e8f8036"
+  },
+  "memberID": "5f003de80e8e590bafe98521",
+  "projectID": "10000",
+  "teamID": "grendelgames.atlassian.net",
+  "issueID": "10162",
+  "points": 1,
+  "status": 2,
+  "createdAt": {
+    "$date": "2020-07-13T13:47:35.870Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f0c6709ccf48d001e8f803d"
+  },
+  "memberID": "5f003de80e8e590bafe98521",
+  "projectID": "10000",
+  "teamID": "grendelgames.atlassian.net",
+  "issueID": "10163",
+  "points": 500,
+  "status": 3,
+  "createdAt": {
+    "$date": "2020-07-13T13:52:09.819Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f0c6860ccf48d001e8f8044"
+  },
+  "memberID": "557058:faa4931d-7362-4240-bb72-aa3a69c8f5c6",
+  "projectID": "10000",
+  "teamID": "grendelgames.atlassian.net",
+  "issueID": "10164",
+  "points": 415,
+  "status": 2,
+  "createdAt": {
+    "$date": "2020-07-13T13:57:52.892Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f0c6ba0ccf48d001e8f8047"
+  },
+  "memberID": "5f003de80e8e590bafe98521",
+  "projectID": "10000",
+  "teamID": "grendelgames.atlassian.net",
+  "issueID": "10117",
+  "points": 1,
+  "status": 3,
+  "createdAt": {
+    "$date": "2020-07-13T14:11:44.651Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f0c6ba9ccf48d001e8f8049"
+  },
+  "memberID": "5f003de80e8e590bafe98521",
+  "projectID": "10000",
+  "teamID": "grendelgames.atlassian.net",
+  "issueID": "10118",
+  "points": 1,
+  "status": 3,
+  "createdAt": {
+    "$date": "2020-07-13T14:11:53.919Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f0c6bb2ccf48d001e8f804b"
+  },
+  "memberID": "5f003de80e8e590bafe98521",
+  "projectID": "10000",
+  "teamID": "grendelgames.atlassian.net",
+  "issueID": "10119",
+  "points": 1,
+  "status": 3,
+  "createdAt": {
+    "$date": "2020-07-13T14:12:02.283Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f0c6bf2ccf48d001e8f804d"
+  },
+  "memberID": "557058:faa4931d-7362-4240-bb72-aa3a69c8f5c6",
+  "projectID": "10003",
+  "teamID": "grendelgames.atlassian.net",
+  "issueID": "10165",
+  "points": 1,
+  "status": 3,
+  "createdAt": {
+    "$date": "2020-07-13T14:13:06.034Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f0c6bf4ccf48d001e8f804f"
+  },
+  "memberID": "557058:faa4931d-7362-4240-bb72-aa3a69c8f5c6",
+  "projectID": "10003",
+  "teamID": "grendelgames.atlassian.net",
+  "issueID": "10166",
+  "points": 1,
+  "status": 3,
+  "createdAt": {
+    "$date": "2020-07-13T14:13:08.109Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f0c6bf6ccf48d001e8f8051"
+  },
+  "memberID": "557058:faa4931d-7362-4240-bb72-aa3a69c8f5c6",
+  "projectID": "10003",
+  "teamID": "grendelgames.atlassian.net",
+  "issueID": "10167",
+  "points": 1,
+  "status": 3,
+  "createdAt": {
+    "$date": "2020-07-13T14:13:10.010Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f0c6bf8ccf48d001e8f8053"
+  },
+  "memberID": "557058:faa4931d-7362-4240-bb72-aa3a69c8f5c6",
+  "projectID": "10003",
+  "teamID": "grendelgames.atlassian.net",
+  "issueID": "10168",
+  "points": 1,
+  "status": 3,
+  "createdAt": {
+    "$date": "2020-07-13T14:13:12.146Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f0c6bfaccf48d001e8f8055"
+  },
+  "memberID": "557058:faa4931d-7362-4240-bb72-aa3a69c8f5c6",
+  "projectID": "10003",
+  "teamID": "grendelgames.atlassian.net",
+  "issueID": "10169",
+  "points": 1,
+  "status": 3,
+  "createdAt": {
+    "$date": "2020-07-13T14:13:14.184Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f0c6bfbccf48d001e8f8057"
+  },
+  "memberID": "5f003de80e8e590bafe98521",
+  "projectID": "10000",
+  "teamID": "grendelgames.atlassian.net",
+  "issueID": "10120",
+  "points": 1,
+  "status": 3,
+  "createdAt": {
+    "$date": "2020-07-13T14:13:15.129Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f0c6d15ccf48d001e8f805a"
+  },
+  "memberID": "5f004671414b340baf8fa9a8",
+  "projectID": "10006",
+  "teamID": "grendelgames.atlassian.net",
+  "issueID": "10170",
+  "points": 1,
+  "status": 2,
+  "createdAt": {
+    "$date": "2020-07-13T14:17:57.199Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f0c6d15ccf48d001e8f805c"
+  },
+  "memberID": "557058:faa4931d-7362-4240-bb72-aa3a69c8f5c6",
+  "projectID": "10000",
+  "teamID": "grendelgames.atlassian.net",
+  "issueID": "10007",
+  "points": 200,
+  "status": 3,
+  "createdAt": {
+    "$date": "2020-07-13T14:17:57.732Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f0c6dafccf48d001e8f805e"
+  },
+  "memberID": "5f003de80e8e590bafe98521",
+  "projectID": "10006",
+  "teamID": "grendelgames.atlassian.net",
+  "issueID": "10171",
+  "points": 1,
+  "status": 2,
+  "createdAt": {
+    "$date": "2020-07-13T14:20:31.450Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f0c6de3ccf48d001e8f8060"
+  },
+  "memberID": "5df2125c7dc0360ecd0253f8",
+  "projectID": "10006",
+  "teamID": "grendelgames.atlassian.net",
+  "issueID": "10174",
+  "points": 1,
+  "status": 3,
+  "createdAt": {
+    "$date": "2020-07-13T14:21:23.506Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f0c6de8ccf48d001e8f8062"
+  },
+  "memberID": "557058:bd20af2c-41a8-4bd5-b7e3-a3486aece5f2",
+  "projectID": "10006",
+  "teamID": "grendelgames.atlassian.net",
+  "issueID": "10175",
+  "points": 1,
+  "status": 2,
+  "createdAt": {
+    "$date": "2020-07-13T14:21:28.971Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f0c6df1ccf48d001e8f8064"
+  },
+  "memberID": "5f003de80e8e590bafe98521",
+  "projectID": "10006",
+  "teamID": "grendelgames.atlassian.net",
+  "issueID": "10173",
+  "points": 1,
+  "status": 3,
+  "createdAt": {
+    "$date": "2020-07-13T14:21:37.743Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f0c70d9ccf48d001e8f8066"
+  },
+  "memberID": "557058:bd20af2c-41a8-4bd5-b7e3-a3486aece5f2",
+  "projectID": "10006",
+  "teamID": "grendelgames.atlassian.net",
+  "issueID": "10172",
+  "points": 1,
+  "status": 3,
+  "createdAt": {
+    "$date": "2020-07-13T14:34:01.114Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f0c70eeccf48d001e8f806a"
+  },
+  "memberID": "557058:faa4931d-7362-4240-bb72-aa3a69c8f5c6",
+  "projectID": "10006",
+  "teamID": "grendelgames.atlassian.net",
+  "issueID": "10176",
+  "points": 1,
+  "status": 2,
+  "createdAt": {
+    "$date": "2020-07-13T14:34:22.412Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f0c70eeccf48d001e8f8068"
+  },
+  "memberID": "557058:faa4931d-7362-4240-bb72-aa3a69c8f5c6",
+  "projectID": "10006",
+  "teamID": "grendelgames.atlassian.net",
+  "issueID": "10176",
+  "points": 1,
+  "status": 2,
+  "createdAt": {
+    "$date": "2020-07-13T14:34:22.407Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f0c7103ccf48d001e8f806c"
+  },
+  "memberID": "557058:faa4931d-7362-4240-bb72-aa3a69c8f5c6",
+  "projectID": "10006",
+  "teamID": "grendelgames.atlassian.net",
+  "issueID": "10177",
+  "points": 1,
+  "status": 3,
+  "createdAt": {
+    "$date": "2020-07-13T14:34:43.861Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f0c7103ccf48d001e8f806e"
+  },
+  "memberID": "557058:faa4931d-7362-4240-bb72-aa3a69c8f5c6",
+  "projectID": "10006",
+  "teamID": "grendelgames.atlassian.net",
+  "issueID": "10177",
+  "points": 1,
+  "status": 2,
+  "createdAt": {
+    "$date": "2020-07-13T14:34:43.872Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f0c7114ccf48d001e8f8070"
+  },
+  "memberID": "557058:faa4931d-7362-4240-bb72-aa3a69c8f5c6",
+  "projectID": "10006",
+  "teamID": "grendelgames.atlassian.net",
+  "issueID": "10178",
+  "points": 1,
+  "status": 4,
+  "createdAt": {
+    "$date": "2020-07-13T14:35:00.432Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f0c7114ccf48d001e8f8072"
+  },
+  "memberID": "557058:faa4931d-7362-4240-bb72-aa3a69c8f5c6",
+  "projectID": "10006",
+  "teamID": "grendelgames.atlassian.net",
+  "issueID": "10178",
+  "points": 1,
+  "status": 2,
+  "createdAt": {
+    "$date": "2020-07-13T14:35:00.437Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f0c81a4ccf48d001e8f8077"
+  },
+  "memberID": "5f00ca5661665e0b9ef8646a",
+  "projectID": "10006",
+  "teamID": "grendelgames.atlassian.net",
+  "issueID": "10180",
+  "points": 80,
+  "status": 3,
+  "createdAt": {
+    "$date": "2020-07-13T15:45:40.538Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f0c81cbccf48d001e8f8079"
+  },
+  "memberID": "5f00ca5661665e0b9ef8646a",
+  "projectID": "10006",
+  "teamID": "grendelgames.atlassian.net",
+  "issueID": "10181",
+  "points": 40,
+  "status": 3,
+  "createdAt": {
+    "$date": "2020-07-13T15:46:19.247Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f0c8257ccf48d001e8f807b"
+  },
+  "memberID": "5f00ca5661665e0b9ef8646a",
+  "projectID": "10000",
+  "teamID": "grendelgames.atlassian.net",
+  "issueID": "10182",
+  "points": 80,
+  "status": 3,
+  "createdAt": {
+    "$date": "2020-07-13T15:48:39.759Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f0c8272ccf48d001e8f807d"
+  },
+  "memberID": "5f00ca5661665e0b9ef8646a",
+  "projectID": "10000",
+  "teamID": "grendelgames.atlassian.net",
+  "issueID": "10183",
+  "points": 40,
+  "status": 3,
+  "createdAt": {
+    "$date": "2020-07-13T15:49:06.172Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f0c91abccf48d001e8f8080"
+  },
+  "memberID": "557058:656d8057-aef5-4b0e-940e-b6b793a04505",
+  "projectID": "10002",
+  "teamID": "jeftech0.atlassian.net",
+  "issueID": "10016",
+  "points": 1,
+  "status": 4,
+  "createdAt": {
+    "$date": "2020-07-13T16:54:03.306Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f0c91b0ccf48d001e8f8082"
+  },
+  "memberID": "557058:656d8057-aef5-4b0e-940e-b6b793a04505",
+  "projectID": "10002",
+  "teamID": "jeftech0.atlassian.net",
+  "issueID": "10017",
+  "points": 1,
+  "status": 3,
+  "createdAt": {
+    "$date": "2020-07-13T16:54:08.744Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f1b787e8b7ddb001e4ff4bc"
+  },
+  "memberID": "557057:9b44ff99-aaa6-4872-aaa6-5685c1a37a37",
+  "projectID": "10000",
+  "teamID": "codegeist2020judge.atlassian.net",
+  "issueID": "10000",
+  "points": 10,
+  "status": 3,
+  "createdAt": {
+    "$date": "2020-07-25T00:10:38.369Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f1b78838b7ddb001e4ff4be"
+  },
+  "memberID": "557057:9b44ff99-aaa6-4872-aaa6-5685c1a37a37",
+  "projectID": "10000",
+  "teamID": "codegeist2020judge.atlassian.net",
+  "issueID": "10001",
+  "points": 10,
+  "status": 4,
+  "createdAt": {
+    "$date": "2020-07-25T00:10:43.334Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f1b799f8b7ddb001e4ff4c4"
+  },
+  "memberID": "557057:9b44ff99-aaa6-4872-aaa6-5685c1a37a37",
+  "projectID": "10001",
+  "teamID": "codegeist2020judge.atlassian.net",
+  "issueID": "10002",
+  "points": 5,
+  "status": 2,
+  "createdAt": {
+    "$date": "2020-07-25T00:15:27.158Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f1ef015aaf18d001ea1242c"
+  },
+  "memberID": "557058:bd20af2c-41a8-4bd5-b7e3-a3486aece5f2",
+  "projectID": "10000",
+  "teamID": "grendelgames.atlassian.net",
+  "issueID": "10127",
+  "points": 1,
+  "status": 3,
+  "createdAt": {
+    "$date": "2020-07-27T15:17:41.713Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f52ecaa613fc1001ea28a0b"
+  },
+  "memberID": "5eb5711bacdf9c0b915eb281",
+  "projectID": "10000",
+  "teamID": "shon-mark.atlassian.net",
+  "issueID": "10033",
+  "points": 1,
+  "status": 3,
+  "createdAt": {
+    "$date": "2020-09-05T01:40:58.848Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f52ecf4613fc1001ea28a0d"
+  },
+  "memberID": "5eb5711bacdf9c0b915eb281",
+  "projectID": "10000",
+  "teamID": "shon-mark.atlassian.net",
+  "issueID": "10032",
+  "points": 1,
+  "status": 3,
+  "createdAt": {
+    "$date": "2020-09-05T01:42:12.953Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f52ecfe613fc1001ea28a0f"
+  },
+  "memberID": "5eb5711bacdf9c0b915eb281",
+  "projectID": "10000",
+  "teamID": "shon-mark.atlassian.net",
+  "issueID": "10031",
+  "points": 1,
+  "status": 3,
+  "createdAt": {
+    "$date": "2020-09-05T01:42:22.717Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f52ed01613fc1001ea28a11"
+  },
+  "memberID": "5c3b7e2ff9d0ab2efb442ace",
+  "projectID": "10000",
+  "teamID": "shon-mark.atlassian.net",
+  "issueID": "10025",
+  "points": 1,
+  "status": 3,
+  "createdAt": {
+    "$date": "2020-09-05T01:42:25.483Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f52ed04613fc1001ea28a13"
+  },
+  "memberID": "5c3b7e2ff9d0ab2efb442ace",
+  "projectID": "10000",
+  "teamID": "shon-mark.atlassian.net",
+  "issueID": "10024",
+  "points": 1,
+  "status": 3,
+  "createdAt": {
+    "$date": "2020-09-05T01:42:28.108Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f52ed0a613fc1001ea28a15"
+  },
+  "memberID": "5c3b7e2ff9d0ab2efb442ace",
+  "projectID": "10000",
+  "teamID": "shon-mark.atlassian.net",
+  "issueID": "10021",
+  "points": 1,
+  "status": 3,
+  "createdAt": {
+    "$date": "2020-09-05T01:42:34.834Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f534e03894d3b001e12573b"
+  },
+  "memberID": "5c3b7e2ff9d0ab2efb442ace",
+  "projectID": "10000",
+  "teamID": "shon-mark.atlassian.net",
+  "issueID": "10028",
+  "points": 1,
+  "status": 3,
+  "createdAt": {
+    "$date": "2020-09-05T08:36:19.808Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f534e07894d3b001e12573d"
+  },
+  "memberID": "5c3b7e2ff9d0ab2efb442ace",
+  "projectID": "10000",
+  "teamID": "shon-mark.atlassian.net",
+  "issueID": "10026",
+  "points": 1,
+  "status": 3,
+  "createdAt": {
+    "$date": "2020-09-05T08:36:23.211Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f535008894d3b001e12573f"
+  },
+  "memberID": "5c3b7e2ff9d0ab2efb442ace",
+  "projectID": "10000",
+  "teamID": "shon-mark.atlassian.net",
+  "issueID": "10034",
+  "points": 1,
+  "status": 3,
+  "createdAt": {
+    "$date": "2020-09-05T08:44:56.648Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f535010894d3b001e125741"
+  },
+  "memberID": "5c3b7e2ff9d0ab2efb442ace",
+  "projectID": "10000",
+  "teamID": "shon-mark.atlassian.net",
+  "issueID": "10029",
+  "points": 1,
+  "status": 4,
+  "createdAt": {
+    "$date": "2020-09-05T08:45:04.199Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f535012894d3b001e125743"
+  },
+  "memberID": "5c3b7e2ff9d0ab2efb442ace",
+  "projectID": "10000",
+  "teamID": "shon-mark.atlassian.net",
+  "issueID": "10020",
+  "points": 1,
+  "status": 3,
+  "createdAt": {
+    "$date": "2020-09-05T08:45:06.140Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f53501c894d3b001e125745"
+  },
+  "memberID": "5c3b7e2ff9d0ab2efb442ace",
+  "projectID": "10000",
+  "teamID": "shon-mark.atlassian.net",
+  "issueID": "10030",
+  "points": 1,
+  "status": 3,
+  "createdAt": {
+    "$date": "2020-09-05T08:45:16.894Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f535092894d3b001e125747"
+  },
+  "memberID": "5c3b7e2ff9d0ab2efb442ace",
+  "projectID": "10000",
+  "teamID": "shon-mark.atlassian.net",
+  "issueID": "10015",
+  "points": 1,
+  "status": 3,
+  "createdAt": {
+    "$date": "2020-09-05T08:47:14.918Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f5350b3894d3b001e125749"
+  },
+  "memberID": "5c3b7e2ff9d0ab2efb442ace",
+  "projectID": "10000",
+  "teamID": "shon-mark.atlassian.net",
+  "issueID": "10003",
+  "points": 1,
+  "status": 3,
+  "createdAt": {
+    "$date": "2020-09-05T08:47:47.761Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f5350b7894d3b001e12574b"
+  },
+  "memberID": "5eb5711bacdf9c0b915eb281",
+  "projectID": "10000",
+  "teamID": "shon-mark.atlassian.net",
+  "issueID": "10001",
+  "points": 1,
+  "status": 3,
+  "createdAt": {
+    "$date": "2020-09-05T08:47:51.579Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f5350b9894d3b001e12574d"
+  },
+  "memberID": "5c3b7e2ff9d0ab2efb442ace",
+  "projectID": "10000",
+  "teamID": "shon-mark.atlassian.net",
+  "issueID": "10000",
+  "points": 1,
+  "status": 3,
+  "createdAt": {
+    "$date": "2020-09-05T08:47:53.852Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f5350bc894d3b001e12574f"
+  },
+  "memberID": "5eb5711bacdf9c0b915eb281",
+  "projectID": "10000",
+  "teamID": "shon-mark.atlassian.net",
+  "issueID": "10023",
+  "points": 1,
+  "status": 3,
+  "createdAt": {
+    "$date": "2020-09-05T08:47:56.247Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f5350bd894d3b001e125751"
+  },
+  "memberID": "5eb5711bacdf9c0b915eb281",
+  "projectID": "10000",
+  "teamID": "shon-mark.atlassian.net",
+  "issueID": "10022",
+  "points": 1,
+  "status": 3,
+  "createdAt": {
+    "$date": "2020-09-05T08:47:57.577Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f5350bf894d3b001e125753"
+  },
+  "memberID": "5c3b7e2ff9d0ab2efb442ace",
+  "projectID": "10000",
+  "teamID": "shon-mark.atlassian.net",
+  "issueID": "10017",
+  "points": 1,
+  "status": 3,
+  "createdAt": {
+    "$date": "2020-09-05T08:47:59.201Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f53de3fd7b517001e84f5b6"
+  },
+  "memberID": "5c3b7e2ff9d0ab2efb442ace",
+  "projectID": "10000",
+  "teamID": "shon-mark.atlassian.net",
+  "issueID": "10035",
+  "points": 1,
+  "status": 2,
+  "createdAt": {
+    "$date": "2020-09-05T18:51:43.841Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f54c639dfaad6001e65703a"
+  },
+  "memberID": "5eb5711bacdf9c0b915eb281",
+  "projectID": "10000",
+  "teamID": "shon-mark.atlassian.net",
+  "issueID": "10027",
+  "points": 1,
+  "status": 3,
+  "createdAt": {
+    "$date": "2020-09-06T11:21:29.256Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f567e879e88d9001ebcd614"
+  },
+  "memberID": "5dd54b1ca20e0c0e9ef6eb08",
+  "projectID": "10000",
+  "teamID": "ewka.atlassian.net",
+  "issueID": "10010",
+  "points": 1,
+  "status": 3,
+  "createdAt": {
+    "$date": "2020-09-07T18:40:07.837Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f56802d9e88d9001ebcd616"
+  },
+  "memberID": "5dd54b1ca20e0c0e9ef6eb08",
+  "projectID": "10000",
+  "teamID": "ewka.atlassian.net",
+  "issueID": "10005",
+  "points": 1,
+  "status": 3,
+  "createdAt": {
+    "$date": "2020-09-07T18:47:09.659Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f60ea8e7eb405001e30e4f6"
+  },
+  "memberID": "5f07805370b8a90025828b18",
+  "projectID": "10000",
+  "teamID": "abalumvidrial.atlassian.net",
+  "issueID": "10007",
+  "points": 1,
+  "status": 3,
+  "createdAt": {
+    "$date": "2020-09-15T16:23:42.765Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f75ee9b4d5d30001e3f8e16"
+  },
+  "memberID": "5f20370c0d8b1a001b99de2d",
+  "projectID": "10000",
+  "teamID": "abalumvidrial.atlassian.net",
+  "issueID": "10285",
+  "points": 1,
+  "status": 4,
+  "createdAt": {
+    "$date": "2020-10-01T14:58:35.087Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f75ee9b4d5d30001e3f8e18"
+  },
+  "memberID": "5f20370c0d8b1a001b99de2d",
+  "projectID": "10000",
+  "teamID": "abalumvidrial.atlassian.net",
+  "issueID": "10285",
+  "points": 1,
+  "status": 4,
+  "createdAt": {
+    "$date": "2020-10-01T14:58:35.112Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f7c5919d905ac001e427caf"
+  },
+  "memberID": "5f203957f78bea001647c527",
+  "projectID": "10000",
+  "teamID": "abalumvidrial.atlassian.net",
+  "issueID": "10325",
+  "points": 1,
+  "status": 2,
+  "createdAt": {
+    "$date": "2020-10-06T11:46:33.103Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f7c5943d905ac001e427cb1"
+  },
+  "memberID": "5f203957f78bea001647c527",
+  "projectID": "10000",
+  "teamID": "abalumvidrial.atlassian.net",
+  "issueID": "10327",
+  "points": 1,
+  "status": 2,
+  "createdAt": {
+    "$date": "2020-10-06T11:47:15.892Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f7c5998d905ac001e427cb7"
+  },
+  "memberID": "5f203957f78bea001647c527",
+  "projectID": "10000",
+  "teamID": "abalumvidrial.atlassian.net",
+  "issueID": "10326",
+  "points": 1,
+  "status": 2,
+  "createdAt": {
+    "$date": "2020-10-06T11:48:40.885Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f7c5998d905ac001e427cb9"
+  },
+  "memberID": "5f203957f78bea001647c527",
+  "projectID": "10000",
+  "teamID": "abalumvidrial.atlassian.net",
+  "issueID": "10326",
+  "points": 1,
+  "status": 2,
+  "createdAt": {
+    "$date": "2020-10-06T11:48:40.889Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f7c7ca3c249f9001e28fdc3"
+  },
+  "memberID": "5f203957f78bea001647c527",
+  "projectID": "10000",
+  "teamID": "abalumvidrial.atlassian.net",
+  "issueID": "10328",
+  "points": 1,
+  "status": 2,
+  "createdAt": {
+    "$date": "2020-10-06T14:18:11.318Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f7c7cdfc249f9001e28fdc8"
+  },
+  "memberID": "5f203957f78bea001647c527",
+  "projectID": "10000",
+  "teamID": "abalumvidrial.atlassian.net",
+  "issueID": "10329",
+  "points": 1,
+  "status": 2,
+  "createdAt": {
+    "$date": "2020-10-06T14:19:11.784Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f7c7cf7c249f9001e28fdcb"
+  },
+  "memberID": "5f07805370b8a90025828b18",
+  "projectID": "10000",
+  "teamID": "abalumvidrial.atlassian.net",
+  "issueID": "10330",
+  "points": 1,
+  "status": 2,
+  "createdAt": {
+    "$date": "2020-10-06T14:19:35.403Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f7c7d15c249f9001e28fdcf"
+  },
+  "memberID": "5f203957f78bea001647c527",
+  "projectID": "10000",
+  "teamID": "abalumvidrial.atlassian.net",
+  "issueID": "10331",
+  "points": 1,
+  "status": 2,
+  "createdAt": {
+    "$date": "2020-10-06T14:20:05.094Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f7c7d66c249f9001e28fdd9"
+  },
+  "memberID": "5f203957f78bea001647c527",
+  "projectID": "10000",
+  "teamID": "abalumvidrial.atlassian.net",
+  "issueID": "10334",
+  "points": 1,
+  "status": 2,
+  "createdAt": {
+    "$date": "2020-10-06T14:21:26.863Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f865dc2b21539001e6f0c3a"
+  },
+  "memberID": "5f203957f78bea001647c527",
+  "projectID": "10000",
+  "teamID": "abalumvidrial.atlassian.net",
+  "issueID": "10347",
+  "points": 1,
+  "status": 2,
+  "createdAt": {
+    "$date": "2020-10-14T02:09:06.687Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f865df4b21539001e6f0c3c"
+  },
+  "memberID": "5f203957f78bea001647c527",
+  "projectID": "10000",
+  "teamID": "abalumvidrial.atlassian.net",
+  "issueID": "10348",
+  "points": 1,
+  "status": 2,
+  "createdAt": {
+    "$date": "2020-10-14T02:09:56.454Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f865e07b21539001e6f0c3e"
+  },
+  "memberID": "5f203957f78bea001647c527",
+  "projectID": "10000",
+  "teamID": "abalumvidrial.atlassian.net",
+  "issueID": "10349",
+  "points": 1,
+  "status": 2,
+  "createdAt": {
+    "$date": "2020-10-14T02:10:15.251Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f865e1cb21539001e6f0c40"
+  },
+  "memberID": "5f203957f78bea001647c527",
+  "projectID": "10000",
+  "teamID": "abalumvidrial.atlassian.net",
+  "issueID": "10350",
+  "points": 1,
+  "status": 2,
+  "createdAt": {
+    "$date": "2020-10-14T02:10:36.766Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f865e2ab21539001e6f0c42"
+  },
+  "memberID": "5f203957f78bea001647c527",
+  "projectID": "10000",
+  "teamID": "abalumvidrial.atlassian.net",
+  "issueID": "10351",
+  "points": 1,
+  "status": 2,
+  "createdAt": {
+    "$date": "2020-10-14T02:10:50.317Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f865e38b21539001e6f0c44"
+  },
+  "memberID": "5f203957f78bea001647c527",
+  "projectID": "10000",
+  "teamID": "abalumvidrial.atlassian.net",
+  "issueID": "10352",
+  "points": 1,
+  "status": 2,
+  "createdAt": {
+    "$date": "2020-10-14T02:11:04.283Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f865e41b21539001e6f0c46"
+  },
+  "memberID": "5f203957f78bea001647c527",
+  "projectID": "10000",
+  "teamID": "abalumvidrial.atlassian.net",
+  "issueID": "10353",
+  "points": 1,
+  "status": 2,
+  "createdAt": {
+    "$date": "2020-10-14T02:11:13.874Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f865e51b21539001e6f0c48"
+  },
+  "memberID": "5f203957f78bea001647c527",
+  "projectID": "10000",
+  "teamID": "abalumvidrial.atlassian.net",
+  "issueID": "10354",
+  "points": 1,
+  "status": 2,
+  "createdAt": {
+    "$date": "2020-10-14T02:11:29.184Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f865e5ab21539001e6f0c4a"
+  },
+  "memberID": "5f203957f78bea001647c527",
+  "projectID": "10000",
+  "teamID": "abalumvidrial.atlassian.net",
+  "issueID": "10355",
+  "points": 1,
+  "status": 2,
+  "createdAt": {
+    "$date": "2020-10-14T02:11:38.976Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f865f9cb21539001e6f0c4f"
+  },
+  "memberID": "5f203957f78bea001647c527",
+  "projectID": "10000",
+  "teamID": "abalumvidrial.atlassian.net",
+  "issueID": "10358",
+  "points": 1,
+  "status": 2,
+  "createdAt": {
+    "$date": "2020-10-14T02:17:00.649Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f865fb3b21539001e6f0c51"
+  },
+  "memberID": "5f203957f78bea001647c527",
+  "projectID": "10000",
+  "teamID": "abalumvidrial.atlassian.net",
+  "issueID": "10360",
+  "points": 1,
+  "status": 2,
+  "createdAt": {
+    "$date": "2020-10-14T02:17:23.354Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f865fbdb21539001e6f0c53"
+  },
+  "memberID": "5f203957f78bea001647c527",
+  "projectID": "10000",
+  "teamID": "abalumvidrial.atlassian.net",
+  "issueID": "10361",
+  "points": 1,
+  "status": 2,
+  "createdAt": {
+    "$date": "2020-10-14T02:17:33.482Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f865fc7b21539001e6f0c55"
+  },
+  "memberID": "5f203957f78bea001647c527",
+  "projectID": "10000",
+  "teamID": "abalumvidrial.atlassian.net",
+  "issueID": "10362",
+  "points": 1,
+  "status": 2,
+  "createdAt": {
+    "$date": "2020-10-14T02:17:43.412Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f865fd1b21539001e6f0c57"
+  },
+  "memberID": "5f203957f78bea001647c527",
+  "projectID": "10000",
+  "teamID": "abalumvidrial.atlassian.net",
+  "issueID": "10363",
+  "points": 1,
+  "status": 2,
+  "createdAt": {
+    "$date": "2020-10-14T02:17:53.491Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f865fdab21539001e6f0c59"
+  },
+  "memberID": "5f203957f78bea001647c527",
+  "projectID": "10000",
+  "teamID": "abalumvidrial.atlassian.net",
+  "issueID": "10364",
+  "points": 1,
+  "status": 2,
+  "createdAt": {
+    "$date": "2020-10-14T02:18:02.681Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f865febb21539001e6f0c5b"
+  },
+  "memberID": "5f203957f78bea001647c527",
+  "projectID": "10000",
+  "teamID": "abalumvidrial.atlassian.net",
+  "issueID": "10365",
+  "points": 1,
+  "status": 2,
+  "createdAt": {
+    "$date": "2020-10-14T02:18:19.901Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f865ff3b21539001e6f0c5d"
+  },
+  "memberID": "5f203957f78bea001647c527",
+  "projectID": "10000",
+  "teamID": "abalumvidrial.atlassian.net",
+  "issueID": "10359",
+  "points": 1,
+  "status": 2,
+  "createdAt": {
+    "$date": "2020-10-14T02:18:27.205Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f866074b21539001e6f0c63"
+  },
+  "memberID": "5f203957f78bea001647c527",
+  "projectID": "10000",
+  "teamID": "abalumvidrial.atlassian.net",
+  "issueID": "10357",
+  "points": 1,
+  "status": 2,
+  "createdAt": {
+    "$date": "2020-10-14T02:20:36.163Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f874d127f7025001eb4eb2f"
+  },
+  "memberID": "5f2035266c9d820022a52ebe",
+  "projectID": "10000",
+  "teamID": "abalumvidrial.atlassian.net",
+  "issueID": "10389",
+  "points": 1,
+  "status": 2,
+  "createdAt": {
+    "$date": "2020-10-14T19:10:10.846Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f882abe99a52d001ee7ee83"
+  },
+  "memberID": "5efd0c5fa62a720b98cbc43e",
+  "projectID": "10000",
+  "teamID": "abalumvidrial.atlassian.net",
+  "issueID": "10291",
+  "points": 1,
+  "status": 3,
+  "createdAt": {
+    "$date": "2020-10-15T10:55:58.919Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f9188c8b71872001e398a6d"
+  },
+  "memberID": "5f07805370b8a90025828b18",
+  "projectID": "10000",
+  "teamID": "abalumvidrial.atlassian.net",
+  "issueID": "10009",
+  "points": 1,
+  "status": 4,
+  "createdAt": {
+    "$date": "2020-10-22T13:27:36.847Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f9188dfb71872001e398a6f"
+  },
+  "memberID": "5efd0c5fa62a720b98cbc43e",
+  "projectID": "10000",
+  "teamID": "abalumvidrial.atlassian.net",
+  "issueID": "10006",
+  "points": 1,
+  "status": 3,
+  "createdAt": {
+    "$date": "2020-10-22T13:27:59.779Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f9437a9fb2763001e4016e8"
+  },
+  "memberID": "70121:e1aa7aa7-7f5a-41b2-b5af-25c1fb1b1437",
+  "projectID": "10000",
+  "teamID": "mimicbr.atlassian.net",
+  "issueID": "10134",
+  "points": 1,
+  "status": 2,
+  "createdAt": {
+    "$date": "2020-10-24T14:18:17.462Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f9437a9fb2763001e4016ea"
+  },
+  "memberID": "70121:e1aa7aa7-7f5a-41b2-b5af-25c1fb1b1437",
+  "projectID": "10000",
+  "teamID": "mimicbr.atlassian.net",
+  "issueID": "10135",
+  "points": 1,
+  "status": 2,
+  "createdAt": {
+    "$date": "2020-10-24T14:18:17.700Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f943873fb2763001e4016ec"
+  },
+  "memberID": "70121:e1aa7aa7-7f5a-41b2-b5af-25c1fb1b1437",
+  "projectID": "10000",
+  "teamID": "mimicbr.atlassian.net",
+  "issueID": "10136",
+  "points": 1,
+  "status": 2,
+  "createdAt": {
+    "$date": "2020-10-24T14:21:39.349Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f96bc6b89fe9d001e1b12dc"
+  },
+  "memberID": "5f07805370b8a90025828b18",
+  "projectID": "10000",
+  "teamID": "abalumvidrial.atlassian.net",
+  "issueID": "10405",
+  "points": 1,
+  "status": 2,
+  "createdAt": {
+    "$date": "2020-10-26T12:09:15.891Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f96d85b308053001e963273"
+  },
+  "memberID": "5f85b7c8c07c880075996cdb",
+  "projectID": "10000",
+  "teamID": "mimicbr.atlassian.net",
+  "issueID": "10040",
+  "points": 1,
+  "status": 2,
+  "createdAt": {
+    "$date": "2020-10-26T14:08:27.431Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f96d85d308053001e963275"
+  },
+  "memberID": "5f0c7bb2b545e2001591369a",
+  "projectID": "10000",
+  "teamID": "mimicbr.atlassian.net",
+  "issueID": "10003",
+  "points": 1,
+  "status": 2,
+  "createdAt": {
+    "$date": "2020-10-26T14:08:29.220Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f96d8db308053001e963277"
+  },
+  "memberID": "5f4e77623aa35b003f9b6bed",
+  "projectID": "10000",
+  "teamID": "mimicbr.atlassian.net",
+  "issueID": "10042",
+  "points": 1,
+  "status": 2,
+  "createdAt": {
+    "$date": "2020-10-26T14:10:35.886Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f96da18308053001e96327e"
+  },
+  "memberID": "5f85b85869323300764a9c3b",
+  "projectID": "10000",
+  "teamID": "mimicbr.atlassian.net",
+  "issueID": "10020",
+  "points": 1,
+  "status": 2,
+  "createdAt": {
+    "$date": "2020-10-26T14:15:52.546Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f96da28308053001e963280"
+  },
+  "memberID": "5f85b7c8c07c880075996cdb",
+  "projectID": "10000",
+  "teamID": "mimicbr.atlassian.net",
+  "issueID": "10080",
+  "points": 1,
+  "status": 4,
+  "createdAt": {
+    "$date": "2020-10-26T14:16:08.860Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f96da48308053001e963282"
+  },
+  "memberID": "5f85b7c8c07c880075996cdb",
+  "projectID": "10000",
+  "teamID": "mimicbr.atlassian.net",
+  "issueID": "10082",
+  "points": 1,
+  "status": 2,
+  "createdAt": {
+    "$date": "2020-10-26T14:16:40.676Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f96db5b308053001e963286"
+  },
+  "memberID": "5f85b7c8c07c880075996cdb",
+  "projectID": "10000",
+  "teamID": "mimicbr.atlassian.net",
+  "issueID": "10072",
+  "points": 1,
+  "status": 2,
+  "createdAt": {
+    "$date": "2020-10-26T14:21:15.042Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f96db5e308053001e963288"
+  },
+  "memberID": "5f85b7c8c07c880075996cdb",
+  "projectID": "10000",
+  "teamID": "mimicbr.atlassian.net",
+  "issueID": "10076",
+  "points": 1,
+  "status": 2,
+  "createdAt": {
+    "$date": "2020-10-26T14:21:18.093Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f96db60308053001e96328a"
+  },
+  "memberID": "5f85b7c8c07c880075996cdb",
+  "projectID": "10000",
+  "teamID": "mimicbr.atlassian.net",
+  "issueID": "10075",
+  "points": 1,
+  "status": 2,
+  "createdAt": {
+    "$date": "2020-10-26T14:21:20.972Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f96db62308053001e96328c"
+  },
+  "memberID": "5f85b7c8c07c880075996cdb",
+  "projectID": "10000",
+  "teamID": "mimicbr.atlassian.net",
+  "issueID": "10074",
+  "points": 1,
+  "status": 2,
+  "createdAt": {
+    "$date": "2020-10-26T14:21:22.984Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f96db6a308053001e96328e"
+  },
+  "memberID": "5f85b7c8c07c880075996cdb",
+  "projectID": "10000",
+  "teamID": "mimicbr.atlassian.net",
+  "issueID": "10050",
+  "points": 1,
+  "status": 2,
+  "createdAt": {
+    "$date": "2020-10-26T14:21:30.171Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f96db8d308053001e963290"
+  },
+  "memberID": "5f85b7c8c07c880075996cdb",
+  "projectID": "10000",
+  "teamID": "mimicbr.atlassian.net",
+  "issueID": "10077",
+  "points": 1,
+  "status": 2,
+  "createdAt": {
+    "$date": "2020-10-26T14:22:05.178Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f96dc05308053001e963296"
+  },
+  "memberID": "5f85b7c8c07c880075996cdb",
+  "projectID": "10000",
+  "teamID": "mimicbr.atlassian.net",
+  "issueID": "10047",
+  "points": 1,
+  "status": 2,
+  "createdAt": {
+    "$date": "2020-10-26T14:24:05.328Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f96dc06308053001e963298"
+  },
+  "memberID": "5f85b7c8c07c880075996cdb",
+  "projectID": "10000",
+  "teamID": "mimicbr.atlassian.net",
+  "issueID": "10078",
+  "points": 1,
+  "status": 4,
+  "createdAt": {
+    "$date": "2020-10-26T14:24:06.899Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f96dc08308053001e96329a"
+  },
+  "memberID": "5f85b7c8c07c880075996cdb",
+  "projectID": "10000",
+  "teamID": "mimicbr.atlassian.net",
+  "issueID": "10117",
+  "points": 1,
+  "status": 2,
+  "createdAt": {
+    "$date": "2020-10-26T14:24:08.503Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f96dc0e308053001e96329c"
+  },
+  "memberID": "5f85b7c8c07c880075996cdb",
+  "projectID": "10000",
+  "teamID": "mimicbr.atlassian.net",
+  "issueID": "10048",
+  "points": 1,
+  "status": 2,
+  "createdAt": {
+    "$date": "2020-10-26T14:24:14.955Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f96dc14308053001e96329e"
+  },
+  "memberID": "5f85b7c8c07c880075996cdb",
+  "projectID": "10000",
+  "teamID": "mimicbr.atlassian.net",
+  "issueID": "10119",
+  "points": 1,
+  "status": 2,
+  "createdAt": {
+    "$date": "2020-10-26T14:24:20.647Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f96dc1f308053001e9632a1"
+  },
+  "memberID": "5f85b85869323300764a9c3b",
+  "projectID": "10000",
+  "teamID": "mimicbr.atlassian.net",
+  "issueID": "10031",
+  "points": 1,
+  "status": 2,
+  "createdAt": {
+    "$date": "2020-10-26T14:24:31.952Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f96e106308053001e9632c6"
+  },
+  "memberID": "5efce569a62a720b98cae58c",
+  "projectID": "10000",
+  "teamID": "mimicbr.atlassian.net",
+  "issueID": "10002",
+  "points": 1,
+  "status": 4,
+  "createdAt": {
+    "$date": "2020-10-26T14:45:26.063Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f96e145308053001e9632cc"
+  },
+  "memberID": "5f4e77623aa35b003f9b6bed",
+  "projectID": "10000",
+  "teamID": "mimicbr.atlassian.net",
+  "issueID": "10131",
+  "points": 1,
+  "status": 4,
+  "createdAt": {
+    "$date": "2020-10-26T14:46:29.685Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f96e145308053001e9632ca"
+  },
+  "memberID": "5f85b7c8c07c880075996cdb",
+  "projectID": "10000",
+  "teamID": "mimicbr.atlassian.net",
+  "issueID": "10044",
+  "points": 1,
+  "status": 2,
+  "createdAt": {
+    "$date": "2020-10-26T14:46:29.523Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f96e145308053001e9632ce"
+  },
+  "memberID": "5f85b85869323300764a9c3b",
+  "projectID": "10000",
+  "teamID": "mimicbr.atlassian.net",
+  "issueID": "10011",
+  "points": 1,
+  "status": 2,
+  "createdAt": {
+    "$date": "2020-10-26T14:46:29.862Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f96e145308053001e9632d2"
+  },
+  "memberID": "5f0c7bb2b545e2001591369a",
+  "projectID": "10000",
+  "teamID": "mimicbr.atlassian.net",
+  "issueID": "10123",
+  "points": 1,
+  "status": 2,
+  "createdAt": {
+    "$date": "2020-10-26T14:46:29.879Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f96e145308053001e9632d5"
+  },
+  "memberID": "5f85b7c8c07c880075996cdb",
+  "projectID": "10000",
+  "teamID": "mimicbr.atlassian.net",
+  "issueID": "10010",
+  "points": 1,
+  "status": 3,
+  "createdAt": {
+    "$date": "2020-10-26T14:46:29.912Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f96e1f2308053001e963308"
+  },
+  "memberID": "70121:e1aa7aa7-7f5a-41b2-b5af-25c1fb1b1437",
+  "projectID": "10000",
+  "teamID": "mimicbr.atlassian.net",
+  "issueID": "10147",
+  "points": 1,
+  "status": 4,
+  "createdAt": {
+    "$date": "2020-10-26T14:49:22.949Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f96e393308053001e96332a"
+  },
+  "memberID": "70121:e1aa7aa7-7f5a-41b2-b5af-25c1fb1b1437",
+  "projectID": "10000",
+  "teamID": "mimicbr.atlassian.net",
+  "issueID": "10133",
+  "points": 1,
+  "status": 2,
+  "createdAt": {
+    "$date": "2020-10-26T14:56:19.840Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f97768d5e22a4001ebb50ee"
+  },
+  "memberID": "5f85b7c8c07c880075996cdb",
+  "projectID": "10000",
+  "teamID": "mimicbr.atlassian.net",
+  "issueID": "10064",
+  "points": 1,
+  "status": 2,
+  "createdAt": {
+    "$date": "2020-10-27T01:23:25.473Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f97768e5e22a4001ebb50f1"
+  },
+  "memberID": "5f4e77623aa35b003f9b6bed",
+  "projectID": "10000",
+  "teamID": "mimicbr.atlassian.net",
+  "issueID": "10063",
+  "points": 1,
+  "status": 2,
+  "createdAt": {
+    "$date": "2020-10-27T01:23:26.610Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f99873ca6bf6f001e20182d"
+  },
+  "memberID": "5f4e77623aa35b003f9b6bed",
+  "projectID": "10000",
+  "teamID": "mimicbr.atlassian.net",
+  "issueID": "10163",
+  "points": 1,
+  "status": 2,
+  "createdAt": {
+    "$date": "2020-10-28T14:59:08.570Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f99b179e48ef6001efef71f"
+  },
+  "memberID": "5f2035266c9d820022a52ebe",
+  "projectID": "10000",
+  "teamID": "abalumvidrial.atlassian.net",
+  "issueID": "10447",
+  "points": 1,
+  "status": 2,
+  "createdAt": {
+    "$date": "2020-10-28T17:59:21.851Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f99da8ab037c7001ee77ee2"
+  },
+  "memberID": "5efce569a62a720b98cae58c",
+  "projectID": "10000",
+  "teamID": "mimicbr.atlassian.net",
+  "issueID": "10043",
+  "points": 1,
+  "status": 2,
+  "createdAt": {
+    "$date": "2020-10-28T20:54:34.011Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f99fb6a28ebe7001edbd322"
+  },
+  "memberID": "5f4e77623aa35b003f9b6bed",
+  "projectID": "10000",
+  "teamID": "mimicbr.atlassian.net",
+  "issueID": "10167",
+  "points": 1,
+  "status": 4,
+  "createdAt": {
+    "$date": "2020-10-28T23:14:50.209Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f9a085e56ff2a001ea9dc74"
+  },
+  "memberID": "5f0c7bb2b545e2001591369a",
+  "projectID": "10000",
+  "teamID": "mimicbr.atlassian.net",
+  "issueID": "10001",
+  "points": 1,
+  "status": 3,
+  "createdAt": {
+    "$date": "2020-10-29T00:10:06.182Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f9ad257f0c6b4001e494b9a"
+  },
+  "memberID": "5efd0c5fa62a720b98cbc43e",
+  "projectID": "10004",
+  "teamID": "abalumvidrial.atlassian.net",
+  "issueID": "10470",
+  "points": 1,
+  "status": 2,
+  "createdAt": {
+    "$date": "2020-10-29T14:31:51.430Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f9b0bcd0dd87c001ecdf1e0"
+  },
+  "memberID": "5f4e77623aa35b003f9b6bed",
+  "projectID": "10000",
+  "teamID": "mimicbr.atlassian.net",
+  "issueID": "10179",
+  "points": 1,
+  "status": 2,
+  "createdAt": {
+    "$date": "2020-10-29T18:37:01.552Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f9b0c0c0dd87c001ecdf1e2"
+  },
+  "memberID": "5f4e77623aa35b003f9b6bed",
+  "projectID": "10000",
+  "teamID": "mimicbr.atlassian.net",
+  "issueID": "10180",
+  "points": 1,
+  "status": 2,
+  "createdAt": {
+    "$date": "2020-10-29T18:38:04.074Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f9b38499867cf001e0fa98a"
+  },
+  "memberID": "5f85b7c8c07c880075996cdb",
+  "projectID": "10000",
+  "teamID": "mimicbr.atlassian.net",
+  "issueID": "10000",
+  "points": 1,
+  "status": 2,
+  "createdAt": {
+    "$date": "2020-10-29T21:46:49.634Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f9b38749867cf001e0fa98c"
+  },
+  "memberID": "70121:e1aa7aa7-7f5a-41b2-b5af-25c1fb1b1437",
+  "projectID": "10000",
+  "teamID": "mimicbr.atlassian.net",
+  "issueID": "10041",
+  "points": 1,
+  "status": 2,
+  "createdAt": {
+    "$date": "2020-10-29T21:47:32.577Z"
+  },
+  "__v": 0
+}]

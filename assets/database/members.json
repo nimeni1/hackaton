@@ -1,0 +1,480 @@
+[{
+  "_id": "5f004671414b340baf8fa9a8",
+  "teams": [
+    "grendelgames.atlassian.net"
+  ],
+  "score": 125,
+  "badgeClaimIds": [
+    {
+      "$oid": "5f0c6762ccf48d001e8f8041"
+    }
+  ],
+  "createdAt": {
+    "$date": "2020-07-12T15:21:46.923Z"
+  },
+  "name": "Stan Engels",
+  "url": "https://secure.gravatar.com/avatar/c1ead3e4f5bec1826285e75cce61cf26?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSE-2.png",
+  "__v": 0
+},{
+  "_id": "557058:656d8057-aef5-4b0e-940e-b6b793a04505",
+  "teams": [
+    "grendelgames.atlassian.net",
+    "jeftech0.atlassian.net"
+  ],
+  "score": 251,
+  "badgeClaimIds": [
+    {
+      "$oid": "5f0b5674149e23001e2e87c4"
+    },
+    {
+      "$oid": "5f0b6c3bdd9159001e61e3f1"
+    }
+  ],
+  "createdAt": {
+    "$date": "2020-07-12T15:22:26.783Z"
+  },
+  "name": "Jeffrey van den Elshout",
+  "url": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/557058:656d8057-aef5-4b0e-940e-b6b793a04505/9dbe3e3f-587d-4b97-a17f-f16d230702cf/48",
+  "__v": 0
+},{
+  "_id": "5f087ebb9e8ba300169bf5d4",
+  "teams": [
+    "grendelgames.atlassian.net"
+  ],
+  "score": 0,
+  "badgeClaimIds": [],
+  "createdAt": {
+    "$date": "2020-07-12T15:39:46.026Z"
+  },
+  "name": "Jan-Jaap Severs",
+  "url": "https://secure.gravatar.com/avatar/9c88b405a04c8703f8ccaea7ec7ba43c?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJS-3.png",
+  "__v": 0
+},{
+  "_id": "5df2125c7dc0360ecd0253f8",
+  "teams": [
+    "grendelgames.atlassian.net"
+  ],
+  "score": 76,
+  "badgeClaimIds": [
+    {
+      "$oid": "5f0b83baa4e0b7001e447f9d"
+    }
+  ],
+  "createdAt": {
+    "$date": "2020-07-12T15:44:00.330Z"
+  },
+  "name": "Niek",
+  "url": "https://secure.gravatar.com/avatar/b0ad8f35333deb0c819163d70f402d96?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FN-2.png",
+  "__v": 0
+},{
+  "_id": "557058:bd20af2c-41a8-4bd5-b7e3-a3486aece5f2",
+  "teams": [
+    "grendelgames.atlassian.net"
+  ],
+  "score": 2,
+  "badgeClaimIds": [],
+  "createdAt": {
+    "$date": "2020-07-12T18:05:12.615Z"
+  },
+  "name": "Rayco Haex",
+  "url": "https://secure.gravatar.com/avatar/701039d08ae9dfa7652fd1e4b425df1f?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FRH-0.png",
+  "__v": 0
+},{
+  "_id": "5a8e7ba0169207417fa5d35a",
+  "teams": [
+    "grendelgames.atlassian.net"
+  ],
+  "score": 22,
+  "badgeClaimIds": [],
+  "createdAt": {
+    "$date": "2020-07-12T18:28:43.761Z"
+  },
+  "name": "Patrick Kocken",
+  "url": "https://secure.gravatar.com/avatar/d10d589b9cc6193adcb38f3baf66318e?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FPK-1.png",
+  "__v": 0
+},{
+  "_id": "5f00ca5661665e0b9ef8646a",
+  "teams": [
+    "grendelgames.atlassian.net"
+  ],
+  "score": 160,
+  "badgeClaimIds": [
+    {
+      "$oid": "5f1ef073aaf18d001ea1242e"
+    }
+  ],
+  "createdAt": {
+    "$date": "2020-07-13T10:35:16.093Z"
+  },
+  "name": "Anne",
+  "url": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/5f00ca5661665e0b9ef8646a/8ab9836e-c056-40b0-b332-bb0421515156/48",
+  "__v": 0
+},{
+  "_id": "557058:faa4931d-7362-4240-bb72-aa3a69c8f5c6",
+  "teams": [
+    "grendelgames.atlassian.net"
+  ],
+  "score": 205,
+  "badgeClaimIds": [
+    {
+      "$oid": "5f0c6c1bccf48d001e8f8059"
+    }
+  ],
+  "createdAt": {
+    "$date": "2020-07-13T13:18:32.512Z"
+  },
+  "name": "Bodhi van Baardewijk",
+  "url": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/557058:faa4931d-7362-4240-bb72-aa3a69c8f5c6/b00f569c-7dde-449f-9dd4-a4767a8e7e79/48",
+  "__v": 0
+},{
+  "_id": "5f003de80e8e590bafe98521",
+  "teams": [
+    "grendelgames.atlassian.net"
+  ],
+  "score": 505,
+  "badgeClaimIds": [],
+  "createdAt": {
+    "$date": "2020-07-13T13:18:36.072Z"
+  },
+  "name": "Thomas Driessen",
+  "url": "https://secure.gravatar.com/avatar/516f6bebfc5c13f56b637a2d36fe7735?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FTD-4.png",
+  "__v": 0
+},{
+  "_id": "5daacd1efb31ca0c35bfee65",
+  "teams": [
+    "grendelgames.atlassian.net"
+  ],
+  "score": 0,
+  "badgeClaimIds": [],
+  "createdAt": {
+    "$date": "2020-07-13T19:36:47.033Z"
+  },
+  "name": "Steve Thijssen",
+  "url": "https://secure.gravatar.com/avatar/031f62274dc63fcbfc883534ffeff26e?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FST-6.png",
+  "__v": 0
+},{
+  "_id": "557057:9b44ff99-aaa6-4872-aaa6-5685c1a37a37",
+  "teams": [
+    "codegeist2020judge.atlassian.net"
+  ],
+  "score": 10,
+  "badgeClaimIds": [],
+  "createdAt": {
+    "$date": "2020-07-25T00:06:48.971Z"
+  },
+  "name": "Alex",
+  "url": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/557057:9b44ff99-aaa6-4872-aaa6-5685c1a37a37/7b38a5dd-79e5-4bf3-8ff4-b3a62af17bcb/48",
+  "__v": 0
+},{
+  "_id": "557058:83458d54-edfa-44cc-bf94-b471f55e6353",
+  "teams": [
+    "mpac-review1.atlassian.net"
+  ],
+  "score": 0,
+  "badgeClaimIds": [],
+  "createdAt": {
+    "$date": "2020-08-04T12:33:38.597Z"
+  },
+  "name": "Martin Orzaiz",
+  "url": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/initials/MO-4.png",
+  "__v": 0
+},{
+  "_id": "5eb4b24ce3c0900b93695cf2",
+  "teams": [
+    "raviek.atlassian.net"
+  ],
+  "score": 0,
+  "badgeClaimIds": [],
+  "createdAt": {
+    "$date": "2020-08-07T11:54:14.866Z"
+  },
+  "name": "Ravie",
+  "url": "https://secure.gravatar.com/avatar/d210a1e2400de972ab98084d854f2b91?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FR-2.png",
+  "__v": 0
+},{
+  "_id": "5dd54b1ca20e0c0e9ef6eb08",
+  "teams": [
+    "ewka.atlassian.net"
+  ],
+  "score": 2,
+  "badgeClaimIds": [],
+  "createdAt": {
+    "$date": "2020-08-11T11:41:48.791Z"
+  },
+  "name": "Ewelina Kijanowska",
+  "url": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/initials/EK-3.png",
+  "__v": 0
+},{
+  "_id": "5e1ff866d152ca0c9e195d33",
+  "teams": [
+    "bendafourth-servi-trak.atlassian.net"
+  ],
+  "score": 0,
+  "badgeClaimIds": [],
+  "createdAt": {
+    "$date": "2020-08-18T04:03:21.267Z"
+  },
+  "name": "Ruben IV Asuncion",
+  "url": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/5e1ff866d152ca0c9e195d33/9e492293-412c-416f-b1e8-a1c79212a880/48",
+  "__v": 0
+},{
+  "_id": "5f43781f3e9e2e004d189c99",
+  "teams": [
+    "connecturaltryout.atlassian.net"
+  ],
+  "score": 0,
+  "badgeClaimIds": [],
+  "createdAt": {
+    "$date": "2020-08-24T08:45:34.520Z"
+  },
+  "name": "nimeni Nimeni",
+  "url": "https://secure.gravatar.com/avatar/957cfe844ea14b34787a7ed914b308c0?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FNN-3.png",
+  "__v": 0
+},{
+  "_id": "5c3b7e2ff9d0ab2efb442ace",
+  "teams": [
+    "shon-mark.atlassian.net"
+  ],
+  "score": 12,
+  "badgeClaimIds": [],
+  "createdAt": {
+    "$date": "2020-09-04T23:43:22.207Z"
+  },
+  "name": "Shon Mark",
+  "url": "https://secure.gravatar.com/avatar/e9e04d9ddb47d69501e6c7e04d41885c?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSM-1.png",
+  "__v": 0
+},{
+  "_id": "5eb5711bacdf9c0b915eb281",
+  "teams": [
+    "shon-mark.atlassian.net"
+  ],
+  "score": 7,
+  "badgeClaimIds": [],
+  "createdAt": {
+    "$date": "2020-09-05T01:40:58.767Z"
+  },
+  "name": "Amber Hahn",
+  "url": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/initials/AH-2.png",
+  "__v": 0
+},{
+  "_id": "5f203957f78bea001647c527",
+  "teams": [
+    "abalumvidrial.atlassian.net"
+  ],
+  "score": 0,
+  "badgeClaimIds": [],
+  "createdAt": {
+    "$date": "2020-09-15T15:22:06.482Z"
+  },
+  "name": "Victoria Pasquini",
+  "url": "https://secure.gravatar.com/avatar/f0d04e93ad642256f06a3ab9b508b821?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FVP-6.png",
+  "__v": 0
+},{
+  "_id": "5f07805370b8a90025828b18",
+  "teams": [
+    "abalumvidrial.atlassian.net"
+  ],
+  "score": 1,
+  "badgeClaimIds": [],
+  "createdAt": {
+    "$date": "2020-09-15T16:23:42.705Z"
+  },
+  "name": "Maria Jose Aviles Mochon",
+  "url": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/5f07805370b8a90025828b18/6b8e1486-e1f7-46e9-8b3f-8e1b9aa74a72/48",
+  "__v": 0
+},{
+  "_id": "5f20370c0d8b1a001b99de2d",
+  "teams": [
+    "abalumvidrial.atlassian.net"
+  ],
+  "score": 0,
+  "badgeClaimIds": [],
+  "createdAt": {
+    "$date": "2020-09-16T17:43:07.310Z"
+  },
+  "name": "Florencia Avilés",
+  "url": "https://secure.gravatar.com/avatar/a9795e7a674a62f3f87c8d2e46298a00?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FFA-3.png",
+  "__v": 0
+},{
+  "_id": "5f20378ab7a35e002a5925e4",
+  "teams": [
+    "abalumvidrial.atlassian.net"
+  ],
+  "score": 0,
+  "badgeClaimIds": [],
+  "createdAt": {
+    "$date": "2020-09-17T12:05:17.065Z"
+  },
+  "name": "esteban aviles",
+  "url": "https://secure.gravatar.com/avatar/9daa88ba8e81bacf404b22b65412b90b?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FEA-3.png",
+  "__v": 0
+},{
+  "_id": "5f2035266c9d820022a52ebe",
+  "teams": [
+    "abalumvidrial.atlassian.net"
+  ],
+  "score": 0,
+  "badgeClaimIds": [],
+  "createdAt": {
+    "$date": "2020-09-17T12:12:08.185Z"
+  },
+  "name": "Maria Sonia Mochon",
+  "url": "https://secure.gravatar.com/avatar/d45715a645b6659ce75fd763587029f7?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMM-5.png",
+  "__v": 0
+},{
+  "_id": "5f1ba0b592bbc7001558b10d",
+  "teams": [
+    "abalumvidrial.atlassian.net"
+  ],
+  "score": 0,
+  "badgeClaimIds": [],
+  "createdAt": {
+    "$date": "2020-09-17T12:16:26.205Z"
+  },
+  "name": "ANTONIO AVILES",
+  "url": "https://secure.gravatar.com/avatar/49ee50c50944c759ea4ba1b4410d697c?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAA-6.png",
+  "__v": 0
+},{
+  "_id": "5f203426c1b9f4001c7bb795",
+  "teams": [
+    "abalumvidrial.atlassian.net"
+  ],
+  "score": 0,
+  "badgeClaimIds": [],
+  "createdAt": {
+    "$date": "2020-09-17T12:16:46.107Z"
+  },
+  "name": "Juan Aviles",
+  "url": "https://secure.gravatar.com/avatar/d068f5f751cb60ce206e6fe112b14bc8?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FJA-0.png",
+  "__v": 0
+},{
+  "_id": "5f636dedcacd83007778afa2",
+  "teams": [
+    "tofas-akademi.atlassian.net"
+  ],
+  "score": 0,
+  "badgeClaimIds": [],
+  "createdAt": {
+    "$date": "2020-09-18T10:16:31.352Z"
+  },
+  "name": "Burak Semercioğlu",
+  "url": "https://secure.gravatar.com/avatar/31333abf0e6e0c193072342bfafb2d2b?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FBS-3.png",
+  "__v": 0
+},{
+  "_id": "5dc13e10ab9cbc0deb4b4e09",
+  "teams": [
+    "alexportnoy.atlassian.net"
+  ],
+  "score": 0,
+  "badgeClaimIds": [],
+  "createdAt": {
+    "$date": "2020-09-21T17:33:43.659Z"
+  },
+  "name": "Alex Portnoy",
+  "url": "https://secure.gravatar.com/avatar/dd95d4ee0722cea3af50e96b6539b55c?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAP-4.png",
+  "__v": 0
+},{
+  "_id": "5efd0c5fa62a720b98cbc43e",
+  "teams": [
+    "abalumvidrial.atlassian.net"
+  ],
+  "score": 2,
+  "badgeClaimIds": [],
+  "createdAt": {
+    "$date": "2020-09-24T15:29:25.294Z"
+  },
+  "name": "Federico Lix Klett",
+  "url": "https://secure.gravatar.com/avatar/3b60c109027dcca821877459cf99dd6e?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FFK-1.png",
+  "__v": 0
+},{
+  "_id": "5f0c7bb2b545e2001591369a",
+  "teams": [
+    "mimicbr.atlassian.net"
+  ],
+  "score": 1,
+  "badgeClaimIds": [],
+  "createdAt": {
+    "$date": "2020-10-24T07:43:06.010Z"
+  },
+  "name": "Fernando Freitas",
+  "url": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/5f0c7bb2b545e2001591369a/8f534f64-fac4-4a29-ad15-39e4dd059cd5/48",
+  "__v": 0
+},{
+  "_id": "5f85b7c8c07c880075996cdb",
+  "teams": [
+    "mimicbr.atlassian.net"
+  ],
+  "score": 1,
+  "badgeClaimIds": [],
+  "createdAt": {
+    "$date": "2020-10-24T09:21:09.790Z"
+  },
+  "name": "Guilherme de Oliveira",
+  "url": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/5f85b7c8c07c880075996cdb/989d4c60-9b3c-4da4-b723-c5158a3ed110/48",
+  "__v": 0
+},{
+  "_id": "5f85b85869323300764a9c3b",
+  "teams": [
+    "mimicbr.atlassian.net"
+  ],
+  "score": 0,
+  "badgeClaimIds": [],
+  "createdAt": {
+    "$date": "2020-10-24T09:21:10.408Z"
+  },
+  "name": "João Victor (JV)",
+  "url": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/5f85b85869323300764a9c3b/4fdb6de2-b0de-4f1d-96cb-b89cd314952b/48",
+  "__v": 0
+},{
+  "_id": "5f4e77623aa35b003f9b6bed",
+  "teams": [
+    "mimicbr.atlassian.net"
+  ],
+  "score": 0,
+  "badgeClaimIds": [],
+  "createdAt": {
+    "$date": "2020-10-24T09:22:27.842Z"
+  },
+  "name": "Henrique Lira",
+  "url": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/5f4e77623aa35b003f9b6bed/c0b50a34-3c40-4bef-bc36-aaa362fcccc0/48",
+  "__v": 0
+},{
+  "_id": "5efce569a62a720b98cae58c",
+  "teams": [
+    "mimicbr.atlassian.net"
+  ],
+  "score": 0,
+  "badgeClaimIds": [],
+  "createdAt": {
+    "$date": "2020-10-24T09:22:49.094Z"
+  },
+  "name": "Victor Dominoni",
+  "url": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/5efce569a62a720b98cae58c/8ee23a1d-d9d6-4a6a-888d-c0e74b86c92a/48",
+  "__v": 0
+},{
+  "_id": "70121:e1aa7aa7-7f5a-41b2-b5af-25c1fb1b1437",
+  "teams": [
+    "mimicbr.atlassian.net"
+  ],
+  "score": 0,
+  "badgeClaimIds": [],
+  "createdAt": {
+    "$date": "2020-10-24T09:24:27.974Z"
+  },
+  "name": "Paulo Alvares",
+  "url": "https://secure.gravatar.com/avatar/397fbc1e21e5d9846e2da0d50da8d99d?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FPA-1.png",
+  "__v": 0
+},{
+  "_id": "70121:b231e31e-198b-4fb1-be1b-52c5108c5119",
+  "teams": [
+    "mimicbr.atlassian.net"
+  ],
+  "score": 0,
+  "badgeClaimIds": [],
+  "createdAt": {
+    "$date": "2020-10-27T14:24:20.664Z"
+  },
+  "name": "Mariana Sakaue",
+  "url": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/70121:b231e31e-198b-4fb1-be1b-52c5108c5119/98c9dc95-d934-4518-b7dd-20223c20e745/48",
+  "__v": 0
+}]

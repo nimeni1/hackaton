@@ -1,0 +1,73 @@
+[{
+  "_id": {
+    "$oid": "5f0c95ef9cf41f001ed69d34"
+  },
+  "healthPoints": 35,
+  "steps": 500,
+  "userID": "110986816112991230428",
+  "accessToken": "ya29.a0AfH6SMDTX_rHPws8hwWIS-_j3lbMiFbnOxw1Id_nr1aa5q8maexpVDpm_SP5oLI-KSzV9gDVqMelpLpLlwbmBG0YD8mqryWisUQtOdWk6nMRlMBkASjtd36xn_LYa5GBOS_xtoc7VLZj6Q4SOYSMg8VzCOymupE9Krk",
+  "createdAt": {
+    "$date": "2020-07-13T17:12:15.539Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f0ca5e2baca98001e6946ac"
+  },
+  "healthPoints": 0,
+  "steps": 0,
+  "userID": "114586015027673034057",
+  "accessToken": "ya29.a0AfH6SMDbe-LLw2tqlksEwYpp35cwq-i64TmJj7HQdp-PpgcRuZoreOzGclrydMo1tU_IRC-pnzVILT7PNvLGCWFDNks--fnW_jZOv5P_QRQjbX2o9tWaps3NVsXEdThu6PLzcPI6_cILdy4OC8Qx3_XypAMNLWZwpV9z",
+  "createdAt": {
+    "$date": "2020-07-13T18:20:18.232Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f0cb75db1f101001eac485d"
+  },
+  "healthPoints": 63.332699999999996,
+  "steps": 4720,
+  "userID": "111466004174490504749",
+  "accessToken": "ya29.a0AfH6SMCJD0qQK17uW84DSLzNaioE3czaHaJGCKigKS1hqCulL6pFEvcS_oGm5Ni03thIrWQC7APp-7O85QpXRxrtTR53PEJdfjEYtDboDAxZOCXEFtkps_-8YriadHwgq31JuIkQkeXY-rv40ZyQOMVyiw8i1FYLGPk",
+  "createdAt": {
+    "$date": "2020-07-13T19:34:53.464Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f0cb834b1f101001eac485e"
+  },
+  "healthPoints": 46.666199999999996,
+  "steps": 3856,
+  "userID": "108031027387406024340",
+  "accessToken": "ya29.a0AfH6SMC9L1yZVAnhtjb-svRYfRmDwO1pqdAC_b22vE9-SvYXkbewmSQ--FaSFIWvgANRslK-9TaxH4xxKgyrb2j_p6peRTbnDvKACwMTkdiosFWRlpPbD-t39o6nrvWAXZevcmXlMF4T5AJCw1UFdDevNdHjh-wZM6w",
+  "createdAt": {
+    "$date": "2020-07-13T19:38:28.905Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f1eef77aaf18d001ea1242b"
+  },
+  "healthPoints": 0,
+  "steps": 0,
+  "userID": "100675809428001360300",
+  "accessToken": "ya29.a0AfH6SMCfpRO6uv-xtNHLKOtlQ_E5RuOBWKLsmjhnZCrlo6E59t3gBYTQ09AKtUr2KtlK7F_YQ2eBtpq-fGZFU4P-7dLr8Gu9okZywW8MAJH3-gW5r67ZPukU6pC1sj0Zmk9LiIUYtmlz5VpnNh4sat8mRInIdkVH6UA",
+  "createdAt": {
+    "$date": "2020-07-27T15:15:03.694Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f9816597364db001e2f793a"
+  },
+  "healthPoints": 0,
+  "steps": 191,
+  "userID": "109817938005918127293",
+  "accessToken": "ya29.a0AfH6SMApNN7S-3m7zIwHFJJs90_h6gWca0XTCSmbu4kBOLWEzWC_idK9Qz6VP4VSdA7S0DVt8ypuK12YpvtSr-ceB_7zRJ4Q1NDZPo1fVa_IUrIlcP7pzREqZipVF9UthgFE5eDUHyFYH6XKAmsJfMrvKg18_ELn6DE",
+  "createdAt": {
+    "$date": "2020-10-27T12:45:13.087Z"
+  },
+  "__v": 0
+}]

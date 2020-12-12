@@ -1,0 +1,79 @@
+[{
+  "_id": {
+    "$oid": "5f0b5674149e23001e2e87c4"
+  },
+  "memberID": "557058:656d8057-aef5-4b0e-940e-b6b793a04505",
+  "badgeID": {
+    "$oid": "5f0b328f1733da001e62e5e0"
+  },
+  "level": 1,
+  "createdAt": {
+    "$date": "2020-07-12T18:29:08.307Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f0b6c3bdd9159001e61e3f1"
+  },
+  "memberID": "557058:656d8057-aef5-4b0e-940e-b6b793a04505",
+  "badgeID": {
+    "$oid": "5f0b32041733da001e62e5df"
+  },
+  "level": 1,
+  "createdAt": {
+    "$date": "2020-07-12T20:02:03.181Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f0b83baa4e0b7001e447f9d"
+  },
+  "memberID": "5df2125c7dc0360ecd0253f8",
+  "badgeID": {
+    "$oid": "5f0b32041733da001e62e5df"
+  },
+  "level": 1,
+  "createdAt": {
+    "$date": "2020-07-12T21:42:18.058Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f0c6762ccf48d001e8f8041"
+  },
+  "memberID": "5f004671414b340baf8fa9a8",
+  "badgeID": {
+    "$oid": "5f0b32041733da001e62e5df"
+  },
+  "level": 1,
+  "createdAt": {
+    "$date": "2020-07-13T13:53:38.270Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f0c6c1bccf48d001e8f8059"
+  },
+  "memberID": "557058:faa4931d-7362-4240-bb72-aa3a69c8f5c6",
+  "badgeID": {
+    "$oid": "5f0b328f1733da001e62e5e0"
+  },
+  "level": 2,
+  "createdAt": {
+    "$date": "2020-07-13T14:13:47.015Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f1ef073aaf18d001ea1242e"
+  },
+  "memberID": "5f00ca5661665e0b9ef8646a",
+  "badgeID": {
+    "$oid": "5f0b328f1733da001e62e5e0"
+  },
+  "level": 1,
+  "createdAt": {
+    "$date": "2020-07-27T15:19:15.641Z"
+  },
+  "__v": 0
+}]

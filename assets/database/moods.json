@@ -1,0 +1,248 @@
+[{
+  "_id": {
+    "$oid": "5f0c6680ccf48d001e8f803a"
+  },
+  "grade": 4.5,
+  "smiley": 3,
+  "description": "Great collaboration today!",
+  "team": "grendelgames.atlassian.net",
+  "memberID": "5f003de80e8e590bafe98521",
+  "createdAt": {
+    "$date": "2020-07-13T13:49:52.598Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f0c6757ccf48d001e8f803f"
+  },
+  "grade": 4,
+  "smiley": 5,
+  "description": "Many problems solved today!",
+  "team": "grendelgames.atlassian.net",
+  "memberID": "557058:faa4931d-7362-4240-bb72-aa3a69c8f5c6",
+  "createdAt": {
+    "$date": "2020-07-13T13:53:27.383Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f0c67f8ccf48d001e8f8043"
+  },
+  "grade": 2,
+  "smiley": 0,
+  "description": "I didn't finish my problems and sadly missed my deadline.",
+  "team": "grendelgames.atlassian.net",
+  "memberID": "5f004671414b340baf8fa9a8",
+  "createdAt": {
+    "$date": "2020-07-13T13:56:08.668Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f0c7aaaccf48d001e8f8076"
+  },
+  "grade": 5,
+  "smiley": 1,
+  "description": "We hit our deadline!",
+  "team": "grendelgames.atlassian.net",
+  "memberID": "5f00ca5661665e0b9ef8646a",
+  "createdAt": {
+    "$date": "2020-07-13T15:15:54.813Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f0c7c4e4b341c1fa8305d7c"
+  },
+  "grade": 4,
+  "smiley": 5,
+  "description": "Many problems solved today!",
+  "team": "grendelgames.atlassian.net",
+  "memberID": "557058:faa4931d-7362-4240-bb72-aa3a69c8f5c6",
+  "createdAt": {
+    "$date": "2020-07-10T13:53:27.383Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f0c7c804b341c1fa8305d7d"
+  },
+  "grade": 3,
+  "smiley": 5,
+  "description": "Many problems solved today!",
+  "team": "grendelgames.atlassian.net",
+  "memberID": "557058:faa4931d-7362-4240-bb72-aa3a69c8f5c6",
+  "createdAt": {
+    "$date": "2020-07-09T13:53:27.383Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f0c7cd04b341c1fa8305d7e"
+  },
+  "grade": 4,
+  "smiley": 5,
+  "description": "Many problems solved today!",
+  "team": "grendelgames.atlassian.net",
+  "memberID": "557058:faa4931d-7362-4240-bb72-aa3a69c8f5c6",
+  "createdAt": {
+    "$date": "2020-07-09T13:53:27.383Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f0c7cec4b341c1fa8305d7f"
+  },
+  "grade": 4,
+  "smiley": 5,
+  "description": "Many problems solved today!",
+  "team": "grendelgames.atlassian.net",
+  "memberID": "557058:faa4931d-7362-4240-bb72-aa3a69c8f5c6",
+  "createdAt": {
+    "$date": "2020-07-08T13:53:27.383Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f0c7cff4b341c1fa8305d80"
+  },
+  "grade": 4,
+  "smiley": 5,
+  "description": "Many problems solved today!",
+  "team": "grendelgames.atlassian.net",
+  "memberID": "557058:faa4931d-7362-4240-bb72-aa3a69c8f5c6",
+  "createdAt": {
+    "$date": "2020-07-07T13:53:27.383Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f0c7d294b341c1fa8305d81"
+  },
+  "grade": 4,
+  "smiley": 5,
+  "description": "Many problems solved today!",
+  "team": "grendelgames.atlassian.net",
+  "memberID": "557058:faa4931d-7362-4240-bb72-aa3a69c8f5c6",
+  "createdAt": {
+    "$date": "2020-07-08T13:53:27.383Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f0c7d2c4b341c1fa8305d82"
+  },
+  "grade": 3,
+  "smiley": 5,
+  "description": "Many problems solved today!",
+  "team": "grendelgames.atlassian.net",
+  "memberID": "557058:faa4931d-7362-4240-bb72-aa3a69c8f5c6",
+  "createdAt": {
+    "$date": "2020-07-08T13:53:27.383Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f0c7d2f4b341c1fa8305d83"
+  },
+  "grade": 2,
+  "smiley": 5,
+  "description": "Many problems solved today!",
+  "team": "grendelgames.atlassian.net",
+  "memberID": "557058:faa4931d-7362-4240-bb72-aa3a69c8f5c6",
+  "createdAt": {
+    "$date": "2020-07-07T13:53:27.383Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f0c7d9e4b341c1fa8305d84"
+  },
+  "grade": 2.4,
+  "smiley": 5,
+  "description": "Many problems solved today!",
+  "team": "grendelgames.atlassian.net",
+  "memberID": "557058:faa4931d-7362-4240-bb72-aa3a69c8f5c6",
+  "createdAt": {
+    "$date": "2020-07-06T13:53:27.383Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f0c7dac4b341c1fa8305d85"
+  },
+  "grade": 3.3,
+  "smiley": 5,
+  "description": "Many problems solved today!",
+  "team": "grendelgames.atlassian.net",
+  "memberID": "557058:faa4931d-7362-4240-bb72-aa3a69c8f5c6",
+  "createdAt": {
+    "$date": "2020-07-05T13:53:27.383Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f1b794a8b7ddb001e4ff4c2"
+  },
+  "grade": 4.5,
+  "smiley": 3,
+  "description": "Judging codegeist",
+  "team": "codegeist2020judge.atlassian.net",
+  "memberID": "557057:9b44ff99-aaa6-4872-aaa6-5685c1a37a37",
+  "createdAt": {
+    "$date": "2020-07-25T00:14:02.254Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f1eeeeaaaf18d001ea1242a"
+  },
+  "grade": 5,
+  "smiley": 4,
+  "description": "It was great today!",
+  "team": "grendelgames.atlassian.net",
+  "memberID": "5daacd1efb31ca0c35bfee65",
+  "createdAt": {
+    "$date": "2020-07-27T15:12:42.230Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f2955c80b81b1001ec51028"
+  },
+  "grade": 5,
+  "smiley": 4,
+  "description": "fsf aondsf/j df",
+  "team": "mpac-review1.atlassian.net",
+  "memberID": "557058:83458d54-edfa-44cc-bf94-b471f55e6353",
+  "createdAt": {
+    "$date": "2020-08-04T12:34:16.924Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f32844b15861f001e158bdf"
+  },
+  "grade": 3.5,
+  "smiley": 3,
+  "description": "vnvnb",
+  "team": "ewka.atlassian.net",
+  "memberID": "5dd54b1ca20e0c0e9ef6eb08",
+  "createdAt": {
+    "$date": "2020-08-11T11:43:07.860Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f43595687357d001ef9b55e"
+  },
+  "grade": 3,
+  "smiley": 4,
+  "description": "Great work",
+  "team": "grendelgames.atlassian.net",
+  "memberID": "5daacd1efb31ca0c35bfee65",
+  "createdAt": {
+    "$date": "2020-08-24T06:08:22.652Z"
+  },
+  "__v": 0
+}]

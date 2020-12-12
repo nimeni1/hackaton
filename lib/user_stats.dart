@@ -19,13 +19,12 @@ import 'package:hackaton/models/quest.dart';
 import 'package:hackaton/models/googleuser.dart';
 import 'package:hackaton/models/goal.dart';
 
-
-class UserStats extends StatefulWidget{
+class UserStats extends StatefulWidget {
   @override
   _UserStatsState createState() => _UserStatsState();
 }
 
-class _UserStatsState extends State<UserStats>{
+class _UserStatsState extends State<UserStats> {
   //quickbase headers
   static String token = 'b5sve5_pes5_ceh7dvmdzui7t8d3gbgnksjzgz4';
   Map<String, String> headers = {
@@ -39,7 +38,6 @@ class _UserStatsState extends State<UserStats>{
   TextEditingController moodController = new TextEditingController();
   TextEditingController descriptionController = new TextEditingController();
   TextEditingController gradeController = new TextEditingController();
-
 
   Material MyItems(IconData icon, String heading, int color) {
     return Material(
@@ -59,143 +57,140 @@ class _UserStatsState extends State<UserStats>{
                     //text
                     Center(
                         child: Padding(
-                          padding: EdgeInsets.all(8.0),
-                          child: Text(
-                            heading,
-                            style: TextStyle(
-                                color: new Color(color),
-                                fontSize: 20.0
-                            ),
-                          ),
-                        )
-                    ),
+                      padding: EdgeInsets.all(8.0),
+                      child: Text(
+                        heading,
+                        style:
+                            TextStyle(color: new Color(color), fontSize: 20.0),
+                      ),
+                    )),
                     //icon
                     Material(
                         color: new Color(color),
                         borderRadius: BorderRadius.circular(24.0),
                         child: Padding(
                           padding: const EdgeInsets.all(16.0),
-                          child: Icon(icon,
-                              color: Colors.white,
-                              size: 30),
-
-                        )
-                    )
+                          child: Icon(icon, color: Colors.white, size: 30),
+                        ))
                   ],
                 )
               ],
-            )
-        ),
+            )),
       ),
     );
   }
 
   @override
   Widget build(BuildContext context) {
-    DatabaseConnection();
+    // DatabaseConnection();
     return Scaffold(
         appBar: AppBar(
             backgroundColor: kPrimaryColor,
-            title: Text('User stats',
-                style: TextStyle(
-                    color: Colors.white
-                ))
-        ),
-      body: Padding(
-        padding: EdgeInsets.all(30),
-        child: ListView.separated(
-          itemCount: 1,
-          itemBuilder: (BuildContext context, int index){
-            return Container(
-              child: ListView(
-                  shrinkWrap: true,
-                  scrollDirection: Axis.vertical,
-                  children: [
-                    Align(
-                      child: RoundedButton(
-                          press:() { showPopup(context, _popupBody(), 'Add a mood');},
-                          text: 'Add mood'),
-                    ),
-                    Align(
-                      child: Container(
-                        width: 200,
-                        child: Card(
-                          margin: EdgeInsets.symmetric(vertical: 10),
-                          child: Align(
-                            child: Container(
-                              width: 200,
-                              child: GestureDetector(
-                                  child: MyItems(Icons.mood, "Current Mood", 0xffed622b),
-                                  onTap:  () { showAlertDialog(context, "Happy, happy!");}
+            title: Text('User stats', style: TextStyle(color: Colors.white))),
+        body: Padding(
+            padding: EdgeInsets.all(30),
+            child: ListView.separated(
+              itemCount: 1,
+              itemBuilder: (BuildContext context, int index) {
+                return Container(
+                    child: ListView(
+                        shrinkWrap: true,
+                        scrollDirection: Axis.vertical,
+                        children: [
+                      Align(
+                        child: RoundedButton(
+                            press: () {
+                              showPopup(context, _popupBody(), 'Add a mood');
+                            },
+                            text: 'Add mood'),
+                      ),
+                      Align(
+                        child: Container(
+                          width: 200,
+                          child: Card(
+                            margin: EdgeInsets.symmetric(vertical: 10),
+                            child: Align(
+                              child: Container(
+                                width: 200,
+                                child: GestureDetector(
+                                    child: MyItems(
+                                        Icons.mood, "Current Mood", 0xffed622b),
+                                    onTap: () {
+                                      showAlertDialog(context, "Happy, happy!");
+                                    }),
                               ),
                             ),
                           ),
                         ),
                       ),
-                    ),
-                    Align(
-                      child: Container(
-                        width: 200,
-                        child: Card(
-                          margin: EdgeInsets.symmetric(vertical: 10),
-                          child: Align(
-                            child: Container(
-                              width: 200,
-                              child: GestureDetector(
-                                  child: MyItems(Icons.score, "Score", 0xffed622b),
-                                  onTap:  () { showAlertDialog(context, "Your score is 60, keep it up!");}
+                      Align(
+                        child: Container(
+                          width: 200,
+                          child: Card(
+                            margin: EdgeInsets.symmetric(vertical: 10),
+                            child: Align(
+                              child: Container(
+                                width: 200,
+                                child: GestureDetector(
+                                    child: MyItems(
+                                        Icons.score, "Score", 0xffed622b),
+                                    onTap: () {
+                                      showAlertDialog(context,
+                                          "Your score is 60, keep it up!");
+                                    }),
                               ),
                             ),
                           ),
                         ),
                       ),
-                    ),
-                    Align(
-                      child: Container(
-                        width: 200,
-                        child: Card(
-                          margin: EdgeInsets.symmetric(vertical: 10),
-                          child: Align(
-                            child: Container(
-                              width: 200,
-                              child: GestureDetector(
-                                  child: MyItems(Icons.question_answer, "Issues closed", 0xffed622b),
-                                  onTap: () { showAlertDialog(context, "You have 3 open issues");}
+                      Align(
+                        child: Container(
+                          width: 200,
+                          child: Card(
+                            margin: EdgeInsets.symmetric(vertical: 10),
+                            child: Align(
+                              child: Container(
+                                width: 200,
+                                child: GestureDetector(
+                                    child: MyItems(Icons.question_answer,
+                                        "Issues closed", 0xffed622b),
+                                    onTap: () {
+                                      showAlertDialog(
+                                          context, "You have 3 open issues");
+                                    }),
                               ),
                             ),
                           ),
                         ),
                       ),
-                    ),
-                    Align(
-                      child: Container(
-                        width: 200,
-                        child: Card(
-                          margin: EdgeInsets.symmetric(vertical: 10),
-                          child: Align(
-                            child: Container(
-                              width: 200,
-                              child: GestureDetector(
-                                  child: MyItems(Icons.fitness_center, "Google fit", 0xffed622b),
-                                  onTap:() { showAlertDialog(context, "Only 30 fit points? You should exercise more often!");}
+                      Align(
+                        child: Container(
+                          width: 200,
+                          child: Card(
+                            margin: EdgeInsets.symmetric(vertical: 10),
+                            child: Align(
+                              child: Container(
+                                width: 200,
+                                child: GestureDetector(
+                                    child: MyItems(Icons.fitness_center,
+                                        "Google fit", 0xffed622b),
+                                    onTap: () {
+                                      showAlertDialog(context,
+                                          "Only 30 fit points? You should exercise more often!");
+                                    }),
                               ),
                             ),
                           ),
                         ),
                       ),
-                    ),
-                  ]
-              )
-            );
-          },
-          separatorBuilder: (BuildContext context, int index) {
-            return SizedBox(
-            height: 10,
-            );
-      },
-        )
-      )
-    );
+                    ]));
+              },
+              separatorBuilder: (BuildContext context, int index) {
+                return SizedBox(
+                  height: 10,
+                );
+              },
+            )));
   }
 
   showAlertDialog(BuildContext context, String message) {
@@ -304,40 +299,36 @@ class _UserStatsState extends State<UserStats>{
           height: 60.0,
         ),
         new Align(
-          alignment: Alignment.bottomCenter,
-          child:
-            new RaisedButton(
+            alignment: Alignment.bottomCenter,
+            child: new RaisedButton(
               child: Text("Add"),
-              shape: new RoundedRectangleBorder(borderRadius: new BorderRadius.circular(30.0)),
+              shape: new RoundedRectangleBorder(
+                  borderRadius: new BorderRadius.circular(30.0)),
               onPressed: () {
                 _handleAddMoodPress();
                 Navigator.of(context).pop();
                 final snackBar = SnackBar(content: Text('Mood added!'));
                 Scaffold.of(context).showSnackBar(snackBar);
               },
-            )
-        )
+            ))
       ],
     );
   }
 
-  _handleAddMoodPress()async{
-    String endpoint = "https://www.pipelines.quickbase.com/hooks/webhooks/1bud9mmwo3k";
+  _handleAddMoodPress() async {
+    String endpoint =
+        "https://www.pipelines.quickbase.com/hooks/webhooks/1bud9mmwo3k";
     Map data = {
-    "_id": {
-    "oid": "5f0c6680ccf48d001e8f803a"
-    },
-    "grade": gradeController.text,
-    "smiley": moodController.text,
-    "description": descriptionController.text,
-    "team": "something.atlassian.net",
-    "memberID": "5f003de80e8e590bafe98521",
-    "createdAt": {
-    "date": "2020-011-19T13:49:52.598Z"
-    },
-    "__v": 0
-  };
+      "_id": {"oid": "5f0c6680ccf48d001e8f803a"},
+      "grade": gradeController.text,
+      "smiley": moodController.text,
+      "description": descriptionController.text,
+      "team": "something.atlassian.net",
+      "memberID": "5f003de80e8e590bafe98521",
+      "createdAt": {"date": "2020-011-19T13:49:52.598Z"},
+      "__v": 0
+    };
     var body = jsonEncode(data);
-    Response response =  await post(endpoint, body: body);
+    Response response = await post(endpoint, body: body);
   }
 }
